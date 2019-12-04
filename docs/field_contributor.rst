@@ -1,6 +1,6 @@
 .. _dci:contributor:
 
-Conlaborador (MA)
+Colaborador (MA)
 =================
 
 ``datacite:contributor``
