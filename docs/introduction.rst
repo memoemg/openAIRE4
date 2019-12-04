@@ -15,8 +15,7 @@ de la Comisión Europea <http://ec.europa.eu/research/openscience/index.cfm?pg=o
 y para cumplir con los requisitos de la infraestructura de OpenAIRE. Esta nueva versión de las directrices, en conformidad con la ampliación 
 de los objetivos de la iniciativa OpenAIRE y su infraestructura, tiene un mayor alcance. De 
 hecho, las directrices tienen el propósito de guiar al administrador de repositorio en la 
-tarea de hacer accesibles para  la infraestructura de OpenAIRE las **publicaciones de
- acceso abierto y no abierto** junto con la **información de financiamiento**, cuando corresponda.
+tarea de hacer accesibles para  la infraestructura de OpenAIRE las **publicaciones de acceso abierto y no abierto** junto con la **información de financiamiento**, cuando corresponda.
  
 Con la implementación de estas directrices, los administradores de repositorios no solo 
 permitirán que las personas autoras que depositan publicaciones en su repositorio 
@@ -41,7 +40,7 @@ los siguientes cambios principales:
 * Un perfil de aplicación y un esquema basados en Dublin Core y DataCite, incluido un nuevo prefijo de Metadatos OAI (Open Archive Initiative).
 * Soporte para esquemas de identificación de autores, organizaciones, financiadores y recursos académicos.
 * Incorporación de los vocabularios controlados de la Confederación de Repositorios de Acceso Abierto (COAR).
-* Cumplimiento de la Política de Adquisición de Contenido de OpenAIRE (OpenAIRE Content Acquisition Policy)<https://doi.org/10.5281/zenodo.1446407>`_, publicada el 5 de octubre de 2018..
+* Cumplimiento de la `Política de Adquisición de Contenido de OpenAIRE (OpenAIRE Content Acquisition Policy)<https://doi.org/10.5281/zenodo.1446407>`_, publicada el 5 de octubre de 2018..
 
 ¿Cómo está estructurado este documento?
 ---------------------------------------
