@@ -4,7 +4,7 @@
 
 .. _vocab:titletype_titletype:
 
-title type
-==========
+tipo de título
+==============
 
 .. include:: vocabularies/titletype.rst
