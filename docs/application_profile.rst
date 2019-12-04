@@ -15,7 +15,7 @@ Obligatorio si es aplicable [Mandatory if Applicable (MA)]
 Recomendado [Recommended (R)]
   Se recomienda el uso de la propiedad.
 
-Opcional [Optional (O)
+Opcional [Optional (O)]
   No es importante si la propiedad se usa o no, pero si se usa puede proporcionar información complementaria sobre el recurso.
 
 Esta documentación utiliza las siguientes abreviaturas para los espacios de nombres (namespace abbreviations):
@@ -28,10 +28,10 @@ Esta documentación utiliza las siguientes abreviaturas para los espacios de nom
 ======================================== ============================= ========================================================================================
 Campo OpenAIRE                           Elemento de metadatos         Refinamiento por vocabulario
 ======================================== ============================= ========================================================================================
-:ref:`dci:title`                         datacite:title                :ref:`title type <vocab:titletype_titletype>`
-:ref:`dci:creator`                       datacite:creator              :ref:`name type <vocab:nametype_nametype>`
-:ref:`dci:contributor`                   datacite:contributor          | :ref:`name type <vocab:nametype_nametype>`
-                                                                       | :ref:`contributor type <vocab:contributortype_contributortype>`
+:ref:`dci:title`                         datacite:title                :ref:`tipo de título <vocab:titletype_titletype>`
+:ref:`dci:creator`                       datacite:creator              :ref:`tipo de nombre <vocab:nametype_nametype>`
+:ref:`dci:contributor`                   datacite:contributor          | :ref:`tipo de nombre <vocab:nametype_nametype>`
+                                                                       | :ref:`tipo de colaborador <vocab:contributortype_contributortype>`
 :ref:`aire:fundingReference`             oaire:fundingReference        :ref:`funderIdentifier type <vocab:funderIdentifiertype_identifiertype>`
 :ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  :ref:`alternateIdentifier type <vocab:alternateIdentifiertype_identifiertype>`
 :ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    | :ref:`relatedIdentifier type <vocab:relatedIdentifiertype_identifiertype>`
