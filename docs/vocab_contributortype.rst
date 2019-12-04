@@ -4,7 +4,7 @@
 
 .. _vocab:contributortype_contributortype:
 
-contributor type
-================
+tipo de colaborador
+===================
 
 .. include:: vocabularies/contributortype.rst
