@@ -45,7 +45,7 @@ Identificador único de la entidad financiadora (ocurrencia: 0-1).
 Atributo funderIdentifiertype (R)
 *********************************
 
-Type of the unique identifier of the funding entity (occurrence: 0-1).
+Tipo de identificador único de la entidad financiadora (ocurrencia: 0-1).
 
 .. include:: vocabularies/funderidentifiertype.rst
 
