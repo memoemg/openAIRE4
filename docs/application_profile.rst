@@ -1,7 +1,7 @@
 .. _application_profile:
 
-Application Profile Overview
-============================
+Descripción general del perfil de aplicación
+============================================
 
 Esta sección enumera las propiedades del perfil de aplicación para las Directrices de 
 OpenAIRE para Administradores de Repositorios de Literatura. Se utilizan los siguientes niveles de obligatoriedad  para las propiedades de los metadatos:
