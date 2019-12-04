@@ -4,7 +4,7 @@
 
 .. _vocab:resourcetypegeneral_resourcetypegeneral:
 
-resourcetype general
-====================
+tipo de recurso general
+=======================
 
 .. include:: vocabularies/resourcetypegeneral.rst
