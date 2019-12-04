@@ -49,7 +49,7 @@ Type of the unique identifier of the funding entity (occurrence: 0-1).
 
 .. include:: vocabularies/funderidentifiertype.rst
 
-Véase también `Registro de Financiadores de Crossref (Crossref Funder Registry)`_
+Véase también `Registro de Financiadores de Crossref (Crossref Funder Registry) <http://fundref.org/services/funder-registry>`_
 
 Subpropiedad fundingStream (O)
 ------------------------------
