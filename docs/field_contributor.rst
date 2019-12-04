@@ -58,48 +58,48 @@ Tipo de nombre (ocurrencia: 0-1).
 
 .. _dci:contributor_familyName:
 
-Subproperty familyName (O)
+Subproiedad familyName (O)
 --------------------------
 
-The surname or last name of the contributor (occurrence: 0-1).
+Apellido del colaborador (ocurrencia: 0-1).
 
 .. _dci:contributor_givenName:
 
-Subproperty givenName (O)
--------------------------
+Subpropiedad givenName (O)
+--------------------------
 
-The personal or first name of the contributor (occurrence: 0-1).
+Nombre propio o de pila del colaborador (ocurrencia: 0-1).
 
 
 .. _dci:contributor_nameIdentifier:
 
-Subproperty nameIdentifier (R)
-------------------------------
+Subpropiedad nameIdentifier (R)
+-------------------------------
 
-Uniquely identifies an individual or legal entity, according to various schemes (occurrence: 0-n).
+Identifica de forma única a una persona física o jurídica, según varios esquemas (occurrence: 0-n).
 
 .. _dci:contributor_nameIdentifierScheme:
 
-Attribute nameIdentifierScheme (M)
-**********************************
+Atributo nameIdentifierScheme (M)
+*********************************
 
-The name of the name identifier scheme (occurrence: 1). Mandatory if *nameIdentifier* is used.
+Nombre del esquema de identificación de nombres (ocurrencia: 1). Es obligatorio si se usa *nameIdentifier*
 
 .. _dci:contributor_schemeURI:
 
-Attribute schemeURI (R)
-***********************
+Atributo schemeURI (R)
+**********************
 
-The URI of the name identifier scheme (occurrence: 0-1).
+URI del esquema de identificación de nombres (ocurrencia: 0-1).
 
 .. _dci:contributor_affiliation:
 
-Subproperty affiliation (R)
----------------------------
+Subpropiedad affiliation (R)
+---------------------------_
 
-The organisational or institutional affiliation of the contributor.
+Afiliación organizacional o institucional del colaborador.
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
