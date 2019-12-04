@@ -1,81 +1,81 @@
 .. _aire:fundingReference:
 
-Funding Reference (MA)
-======================
+Referencia de financiamiento (MA)
+=================================
 
 ``oaire:fundingReference``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Mandatory if applicable*
+*Es obligatorio cuando corresponda.*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n.*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Information about financial support (funding) for the resource being registered.
+Información sobre el apoyo financiero (financiamiento) para el recurso que se va a registrar.
 
-**Usage Instruction**
+**Instrucciones de uso**
 
 .. include:: projectid.rst
 
-**Remarks**
+**Observaciones**
 
-* introduced as ``info:eu-repo/grantAgreement`` in previous versions of the OpenAIRE Guidelines
-* adopting fundingReference element and subproperties from DataCite MetadataKernel v4.1 which replaces the ``info:eu-repo/grantAgreement`` syntax.
+* se introdujo como ``info:eu-repo/grantAgreement`` en versiones anteriores de las Directrices de OpenAIRE.
+* se adopta el elemento fundingReference y sus subpropiedades de DataCite MetadataKernel v4.1, el cual reemplaza la sintaxis ``info:eu-repo/grantAgreement``.
 * adding subproperty fundingStream to this application profile
 
-Property fundingReference (MA, 0-n)
------------------------------------
+Propiedad fundingReference (MA, 0-n)
+------------------------------------
 
-Repeat this property to indicate several different funders and projects.
+Repita esta propiedad para indicar los diferentes financiadores y proyectos.
 
-Subproperty funderName (M)
---------------------------
+Subpropiedad funderName (M)
+---------------------------
 
-Name of the funding provider (occurrence: 1). Mandatory if *FundingReference* is used.
+Nombre del proveedor del financiamiento (ocurrencia: 1). Es obligatorio si se usa *fundingReference*.
 
-Subproperty funderIdentifier (R)
---------------------------------
+Subpropiedad funderIdentifier (R)
+---------------------------------
 
-Unique identifier of the funding entity (occurrence: 0-1).
+Identificador único de la entidad financiadora (ocurrencia: 0-1).
 
-Attribute funderIdentifiertype (R)
-**********************************
+Atributo funderIdentifiertype (R)
+*********************************
 
 Type of the unique identifier of the funding entity (occurrence: 0-1).
 
 .. include:: vocabularies/funderidentifiertype.rst
 
-see also `Crossref Funder Registry`_
+Véase también `Registro de Financiadores de Crossref (Crossref Funder Registry)`_
 
-Subproperty fundingStream (O)
+Subpropiedad fundingStream (O)
+------------------------------
+
+Nombre de la vía de financiamiento (opcional) (ocurrencia: 0-1).
+
+Subpropiedad awardNumber (MA)
 -----------------------------
-
-Name of the funding stream (optional) (occurrence: 0-1).
-
-Subproperty awardNumber (MA)
-----------------------------
 
 Project grantId or awardNumber (occurrence: 1).
 
-Attribute awardURI (R)
-**********************
+Atributo awardURI (R)
+*********************
 
-URI of the project landing page provided by the funder for more information about the award (grant) (occurrence: 0-1). 
+URI de la página de presentación del proyecto proporcionada por el financiador para obtener más información sobre la adjudicación (subvención) (ocurrencia: 0-1). 
 
-Subproperty awardTitle (R)
---------------------------
+Subpropiedad awardTitle (R)
+---------------------------
 
-Title of the project, award or grant (occurrence: 0-1).
+Título del proyecto, adjudicación o subvención (ocurrencia: 0-1).
 
 
-Example
+Ejemplo
 ~~~~~~~
 
-An example utilizing all fields:
+El siguiente es un ejemplo en el que se utilizan todos los campos:
 
 .. code-block:: xml
    :linenos:
