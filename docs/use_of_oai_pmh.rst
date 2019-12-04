@@ -3,7 +3,7 @@ Uso de OAI-PMH
 
 OpenAIRE es compatible con varios protocolos de transferencia e interfaces de 
 recolección de metadatos bibliográficos. A continuación, se describe el uso de uno de 
-los principales protocolos, `el protocolo OAI-PMH v2.0<http://www.openarchives.org/OAI/openarchivesprotocol.html>`_,, en el contexto de estas 
+los principales protocolos, `el protocolo OAI-PMH v2.0 <http://www.openarchives.org/OAI/openarchivesprotocol.html>`_, en el contexto de estas 
 directrices y de su perfil de aplicación.
 
 Formato de los metadatos
