@@ -40,7 +40,7 @@ los siguientes cambios principales:
 * Un perfil de aplicación y un esquema basados en Dublin Core y DataCite, incluido un nuevo prefijo de Metadatos OAI (Open Archive Initiative).
 * Soporte para esquemas de identificación de autores, organizaciones, financiadores y recursos académicos.
 * Incorporación de los vocabularios controlados de la Confederación de Repositorios de Acceso Abierto (COAR).
-* Cumplimiento de la `Política de Adquisición de Contenido de OpenAIRE (OpenAIRE Content Acquisition Policy)<https://doi.org/10.5281/zenodo.1446407>`_, publicada el 5 de octubre de 2018..
+* Cumplimiento de la `Política de Adquisición de Contenido de OpenAIRE (OpenAIRE Content Acquisition Policy)<https://doi.org/10.5281/zenodo.1446407>`_, publicada el 5 de octubre de 2018.
 
 ¿Cómo está estructurado este documento?
 ---------------------------------------
