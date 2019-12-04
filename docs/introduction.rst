@@ -8,9 +8,9 @@ Objetivo
 Las directrices de OpenAIRE para Administradores de Repositorios de Literatura 4.0 
 brindan orientaciones para que los administradores de repositorio definan e 
 implementen las políticas locales de gestión de datos de acuerdo con los requisitos de 
-OpenAIRE - Infraestructura de Acceso Abierto para la Investigación en Europa (Open Access Infrastructure for Research in Europe). <http://www.openaire.eu>`_.
+`OpenAIRE - Infraestructura de Acceso Abierto para la Investigación en Europa (Open Access Infrastructure for Research in Europe). <http://www.openaire.eu>`_.
 
-Estas directrices han sido establecidas para apoyar la estrategia de Acceso Abierto 
+Estas directrices han sido establecidas para apoyar la `estrategia de Acceso Abierto 
 de la Comisión Europea <http://ec.europa.eu/research/openscience/index.cfm?pg=openaccess>`_
 y para cumplir con los requisitos de la infraestructura de OpenAIRE. Esta nueva versión de las directrices, en conformidad con la ampliación 
 de los objetivos de la iniciativa OpenAIRE y su infraestructura, tiene un mayor alcance. De 
