@@ -4,7 +4,7 @@
 
 .. _vocab:identifiertype_identifiertype:
 
-identifier type
-===============
+tipo de identificador
+=====================
 
 .. include:: vocabularies/identifiertype.rst
