@@ -1,5 +1,6 @@
 
-*Controlled list values*
+*Valores de la lista controlada*
 
-* Organizational
-* Personal
+* Organizational - Organizacional
+* Personal - Personal
+
