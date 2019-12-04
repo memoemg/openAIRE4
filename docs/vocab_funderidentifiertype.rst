@@ -4,7 +4,7 @@
 
 .. _vocab:funderidentifiertype_identifiertype:
 
-funderIdentifier type
-========================
+tipo de indentificador de financiador
+=====================================
 
 .. include:: vocabularies/funderidentifiertype.rst
