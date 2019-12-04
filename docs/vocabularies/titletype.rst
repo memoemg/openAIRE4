@@ -1,7 +1,7 @@
 
-*Controlled List Values:*
+*Valores de la lista controlada:*
 
-* AlternativeTitle
-* Subtitle
-* TranslatedTitle
-* Other
+* AlternativeTitle - título alternativo
+* Subtitle - subtítulo
+* TranslatedTitle - título traducido
+* Other - otro
