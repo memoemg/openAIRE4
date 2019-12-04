@@ -4,7 +4,7 @@
 
 .. _vocab:nametype_nametype:
 
-name type
-=========
+tipo de nombre
+==============
 
 .. include:: vocabularies/nametype.rst
