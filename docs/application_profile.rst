@@ -32,19 +32,19 @@ Campo OpenAIRE                           Elemento de metadatos         Refinamie
 :ref:`dci:creator`                       datacite:creator              :ref:`tipo de nombre <vocab:nametype_nametype>`
 :ref:`dci:contributor`                   datacite:contributor          | :ref:`tipo de nombre <vocab:nametype_nametype>`
                                                                        | :ref:`tipo de colaborador <vocab:contributortype_contributortype>`
-:ref:`aire:fundingReference`             oaire:fundingReference        :ref:`funderIdentifier type <vocab:funderIdentifiertype_identifiertype>`
-:ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  :ref:`alternateIdentifier type <vocab:alternateIdentifiertype_identifiertype>`
-:ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    | :ref:`relatedIdentifier type <vocab:relatedIdentifiertype_identifiertype>`
-                                                                       | :ref:`relation type <vocab:relationtype_relationtype>`
-                                                                       | :ref:`resourcetype general <vocab:resourcetypegeneral_resourcetypegeneral>`
-:ref:`dci:dateEmbargo`                   datacite:date                 :ref:`date type <vocab:datetype_datetype>`
+:ref:`aire:fundingReference`             oaire:fundingReference        :ref:`tipo de identificador de financiador <vocab:funderIdentifiertype_identifiertype>`
+:ref:`dci:alternativeIdentifier`         datacite:alternateIdentifier  :ref:`tipo de identificador alternativo <vocab:alternateIdentifiertype_identifiertype>`
+:ref:`dci:relatedIdentifier`             datacite:relatedIdentifier    | :ref:`tipo de identificador relacionado <vocab:relatedIdentifiertype_identifiertype>`
+                                                                       | :ref:`tipo de relación <vocab:relationtype_relationtype>`
+                                                                       | :ref:`tipo de recurso general <vocab:resourcetypegeneral_resourcetypegeneral>`
+:ref:`dci:dateEmbargo`                   datacite:date                 :ref:`tipo de fecha <vocab:datetype_datetype>`
 :ref:`dc:language`                       dc:language                   `IETF BCP 47`_, `ISO 639-3`_
 :ref:`dc:publisher`                      dc:publisher
-:ref:`dci:datePublication`               datacite:date                 :ref:`date type <vocab:datetype_datetype>`
+:ref:`dci:datePublication`               datacite:date                 :ref:`tipo de fecha <vocab:datetype_datetype>`
 :ref:`aire:resourceType`                 oaire:resourceType            `COAR Resource Type Vocabulary`_
 :ref:`dc:description`                    dc:description
 :ref:`dc:format`                         dc:format
-:ref:`dci:identifier`                    datacite:identifier           :ref:`identifier type <vocab:identifiertype_identifiertype>`
+:ref:`dci:identifier`                    datacite:identifier           :ref:`tipo de identificador <vocab:identifiertype_identifiertype>`
 :ref:`dci:accessrights`                  datacite:rights               `COAR Access Right Vocabulary`_
 :ref:`dc:source`                         dc:source
 :ref:`dci:subject`                       datacite:subject              
