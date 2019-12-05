@@ -1,9 +1,9 @@
 
 *Controlled list values*
 
-* ``ARK`` – Archival Resource Key
-* ``arXiv`` – arXiv.org identifier
-* ``bibcode`` – Astrophysics Data System bibliographic codes;  bibcodes can be resolved via http://adsabs.harvard.edu/abs/bibcode
+* ``ARK`` – *Archival Resource Key* (Clave de recurso de archivo)
+* ``arXiv`` – arXiv.org *identifier* (Identificador arXiv.org)
+* ``bibcode`` – *Astrophysics Data System bibliographic codes* (Código Bibliográfico del Sistema de Datos Astrofísicos); los bibcodes se pueden resolver a través de http://adsabs.harvard.edu/abs/bibcode
 * ``DOI`` – Digital Object Identifier
 * ``EAN13`` – European Article Number, now renamed International Article Number, but retaining the original acronym, is a 13-digit barcoding standard which is a superset of the original 12-digit Universal Product Code (UPC) system.
 * ``EISSN`` – International Standard Serial Number (electronic Version)
