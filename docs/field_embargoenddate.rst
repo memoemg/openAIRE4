@@ -39,7 +39,7 @@ Use la fecha de inicio del embargo como valor en una instancia y la fecha de fin
 Atributo dateType (M)
 ---------------------
 
-Tipo de fecha. Elija del vocabulario de :ref:`date type <vocab:datetype_datetype>` el término controlado ``Accepted`` para indicar el inicio y el término ``Available`` para indicar el final de un período de embargo.
+Tipo de fecha. Elija del vocabulario de :ref:`tipo de fecha <vocab:datetype_datetype>` el término controlado ``Accepted`` para indicar el inicio y el término ``Available`` para indicar el final de un período de embargo.
 
 Ejemplo
 ~~~~~~~
