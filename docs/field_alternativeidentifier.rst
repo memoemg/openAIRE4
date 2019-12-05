@@ -1,41 +1,41 @@
 .. _dci:alternativeIdentifier:
 
-Alternate Identifier (R)
-========================
+Identificador alternativo (R)
+=============================
 
 ``datacite:alternateIdentifier``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An identifier or identifiers other than the primary Identifier applied to the resource being registered. This may be any alphanumeric string which is unique within its domain of issue. May be used for local identifiers. AlternateIdentifier should be used for another identifier of the same instance (same location, same file).
+Cualquier otro identificador distinto al identificador primario aplicado al recurso que se va a registrar.  Puede ser cualquier cadena alfanumérica que sea única dentro de su dominio de emisión. Puede utilizarse para identificadores locales. AlternateIdentifier debe utilizarse para indicar otro identificador de la misma instancia (misma ubicación, mismo archivo).
 
-**Remarks**
+**Observaciones**
 
-* adapted from `DataCite MetadataKernel`_ v4.1
+* adaptado de `DataCite MetadataKernel`_ v4.1
 
-Property alternateIdentifier (R, 0-n)
--------------------------------------
+Propiedad alternateIdentifier (R, 0-n)
+--------------------------------------
 
-Value of the alternate identifier.
+Valor del identificador alternativo.
 
 Attribute alternateIdentifierType (M)
 -------------------------------------
 
-The type of the AlternateIdentifier (occurrence: 1). Mandatory if *AlternateIdentifier* is used.
+Tipo del identificador alternativo (ocurrencia: 1). Es obligatorio si se usa AlternateIdentifier.
 
-The type value is *suggested* in the following list:
+Se *recomienda* tomar el valor de la siguiente lista:
 
 .. include:: vocabularies/relatedidentifiertype.rst
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
