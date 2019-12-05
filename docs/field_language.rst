@@ -1,47 +1,47 @@
 .. _dc:language:
 
-Language (MA)
-=============
+Idioma (MA)
+===========
 
 ``dc:language``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Mandatory if applicable*
+*Es obligatorio cuando corresponda*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+**Definición según la Iniciativa de Metadatos de Dublin Core (DCMI, por sus siglas en inglés)**
 
-A language of the intellectual content of the resource.
+Lenguaje del contenido intelectual del recurso.
 
-**Usage Instruction**
+**Instrucciones de uso**
 
-A specific resource (an instance of scientific output) is either written in one human language or more. In these cases all used languages are used in the DC element ``language``. If a specific resource (an instance of scientific output) is written in one human language and is translated into other human languages, each translation does have its own record.
+Se refiere a un recurso específico (una instancia de la producción científica) escrito en uno o más lenguajes humanos. En estos casos, todos los idiomas usados se utilizan en el elemento DC ``language``. Si un recurso específico (una instancia de la producción científica) está escrito en un lenguaje humano y se traduce a otros lenguajes humanos, cada traducción tiene su propia instancia.
 
-Recommendation: take values from one of the following lists: 
+Recomendación: tomar valores de una de las siguientes listas: 
 
-* IETF BCP 47, the `IANA Language Subtag Registry <http://www.iana.org/assignments/language-subtag-registry>`_
-* ISO 639-x, where x can be 1,2 or 3. Best Practice: we use ISO 639-3 and by doing so we follow: http://www.sil.org/iso639-3/
+* IETF BCP 47, el `Registro de subetiquetas de idioma de la IANA (*IANA Language Subtag Registry*) <http://www.iana.org/assignments/language-subtag-registry>`_
+* ISO 639-x,  donde x puede ser 1, 2 o 3. Mejor práctica: usamos la norma ISO 639-3 y al hacerlo seguimos lo expuesto en: http://www.sil.org/iso639-3/
 
-If necessary, repeat this element to indicate multiple languages.
+De ser necesario, repita este elemento para indicar varios idiomas.
 
-If ISO 639-2 and 639-1 are sufficient for the contents of a repository they can be used alternatively. Since there is a unique mapping this can be done during an aggregation process.
+Si las normas ISO 639-2 y 639-1 son suficientes para los contenidos de un repositorio, pueden usarse en forma alternativa. Dado que existe una correspondencia única entre sus valores, se pueden convertir sus valores durante un proceso de agregación.
 
-**Remarks**
+**Observaciones**
 
-* introduced in `DRIVER Guidelines v2 element language`_
+* introducido en `DRIVER Guidelines v2 element language`_
 
-Property language (MA, 0-n)
----------------------------
+Propiedad language (MA, 0-n)
+----------------------------
 
-Use the language code as value.
+Utilice el código idioma como valor.
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
