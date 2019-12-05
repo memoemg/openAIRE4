@@ -1,5 +1,5 @@
 
-*Controlled list values*
+*Valores de la lista controlada*
 
 * ``ARK`` – *Archival Resource Key* (Clave de recurso de archivo).
 * ``arXiv`` – arXiv.org *identifier* (Identificador arXiv.org).
