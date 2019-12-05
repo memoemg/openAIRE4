@@ -25,7 +25,7 @@ Representa la fecha en que se hace público el recurso disponible. Puede ser un 
 * introducido como `info:eu-repo/date/embargoEnd/[YYYY-MM-DD] <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-DateTypesandvalue>`_ en versiones anteriores de las Directrices de OpenAIRE.
 * esta versión del perfil de aplicación adopta el elemento date en combinación con atributos *dateType* de DataCite MetadataKernel v4.1, con lo cual se  reemplaza la sintaxis: ``info:eu-repo/date/EmbargoEnd``.
 
-Cuando :ref:`dci:accessrights` toma el siguiente valor:
+Cuando :ref:`dci:accessrights` toma el siguiente valor::
 
     <datacite:rights uri="http://purl.org/coar/access_right/c_f1cf">embargoed access</<datacite:rights>
 
