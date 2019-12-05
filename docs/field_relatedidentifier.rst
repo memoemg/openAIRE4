@@ -1,84 +1,84 @@
 .. _dci:relatedIdentifier:
 
-Related Identifier (R)
-======================
+Identificador relacionado (R)
+=============================
 
 ``datacite:relatedIdentifier``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An identifier of a related resource other than the primary Identifier applied to the resource being registered. 
+Identificador de un recurso relacionado distinto al identificador primario aplicado al recurso que se va a registrar.
 
-**Remarks**
+**Observaciones**
 
-* adapted from `DataCite MetadataKernel`_ v4.1
+* adaptado de `DataCite MetadataKernel`_ v4.1
 
-Property relatedIdentifier (R, 0-n)
------------------------------------
+Propiedad relatedIdentifier (R, 0-n)
+------------------------------------
 
-Use the related identifier as value. Repeat this property for each related identifier.
+Utilice el identificador relacionado como valor. Repita esta propiedad para cada identificador relacionado.
 
-Attribute relatedIdentifierType (M)
------------------------------------
+Atributo relatedIdentifierType (M)
+----------------------------------
 
-The type of the RelatedIdentifier (occurrence: 1). Mandatory if *RelatedIdentifier* is used.
+Tipo de identificador relacionado (ocurrencia: 1). Es obligatorio si se usa *relatedIdentifier*.
 
 .. include:: vocabularies/relatedidentifiertype.rst
 
-Attribute relationType (M)
---------------------------
+Atributo relationType (M)
+-------------------------
 
-Description of the relationship of the resource being registered (A) and the related resource (B) (occurrence: 1). Mandatory if *RelatedIdentifier* is used.
+Descripción de la relación entre el recurso que se va a registrar (A) y el recurso relacionado (B) (ocurrencia: 1). Es obligatorio si se usa *relatedIdentifier*.
 
 .. include:: vocabularies/relationtype.rst
 
-Attribute relatedMetadataScheme (O)
------------------------------------
+Atributo relatedMetadataScheme (O)
+----------------------------------
 
-The name of the scheme (occurrences: 0-1).
+Nombre del esquema (ocurrencias: 0-1).
 
-**Allowed values, examples, other constraints**
+**Valores permitidos, ejemplos y otras restricciones**
 
-Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
+Úsese solo con este par de relaciones: (``HasMetadata``/``IsMetadataFor``).
 
 
-Attribute schemeURI (O)
+Atributo schemeURI (O)
+----------------------
+
+URI del esquema de metadatos relacionado señalado en *relatedMetadataScheme* (ocurrencias: 0-1).
+
+**Valores permitidos, ejemplos y otras restricciones**
+
+Úsese solo con este par de relaciones: (``HasMetadata``/``IsMetadataFor``).
+
+
+Atributo schemeType (O)
 -----------------------
 
-The URI of the relatedMetadataScheme (occurrences: 0-1).
+Se refiere al tipo de esquema de metadatos relacionado señalado en *relatedMetadataScheme*, vinculado con *schemeURI* (ocurrencias: 0-1).
 
-**Allowed values, examples, other constraints**
+**Valores permitidos, ejemplos y otras restricciones**
 
-Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
+Úsese solo con este par de relaciones: (``HasMetadata``/``IsMetadataFor``).
 
+Ejemplos: ``XSD``, ``DDT``, ``Turtle``
 
-Attribute schemeType (O)
-------------------------
+Atributo resourceTypeGeneral (O)
+--------------------------------
 
-The type of the relatedMetadataScheme, linked with the schemeURI (occurrences: 0-1).
-
-**Allowed values, examples, other constraints**
-
-Use only with this relation pair: (``HasMetadata``/``IsMetadataFor``).
-
-Examples: ``XSD``, ``DDT``, ``Turtle``
-
-Attribute resourceTypeGeneral (O)
----------------------------------
-
-The general type of the related resource (occurrences: 0-1).
+Se refiere al tipo general del recurso relacionado (ocurrencias: 0-1).
 
 .. include:: vocabularies/resourcetypegeneral.rst
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
