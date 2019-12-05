@@ -1,47 +1,47 @@
 .. _dci:dateEmbargo:
 
-Embargo Period Date (MA)
-========================
+Fecha del período de embargo (MA, 2)
+=================================
 
 ``datacite:date``
 
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Mandatory if applicable*
+*Es obligatorio cuando corresponda*
 
-*Occurrence: 2*
+*Ocurrencia: 2*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Dates relevant to describe an embargo period.
+Fechas relevantes para describir un período de embargo.
 
-A date associated with an event in the life cycle of the resource. Typically, Date will be associated with the creation or availability of the resource. Recommended best practice for encoding the date value is defined in a profile of ISO 8601 [W3CDTF] and follows the ``YYYY-MM-DD`` format.
+Representa la fecha en que se hace público el recurso disponible. Puede ser un rango. Para indicar la fecha de fin de un embargo, use el tipo de fecha "Available" en este elemento.   La mejor práctica recomendada para codificar el valor de la fecha se define en un perfil de la norma ISO 8601 [W3CDTF] y sigue el formato ``AAA-MM-DD``.
 
-**Remarks**
+**Observaciones**
 
-* introduced as `info:eu-repo/date/embargoEnd/[YYYY-MM-DD] <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-DateTypesandvalue>`_ in previous versions of the OpenAIRE Guidelines
-* this version of the application profile adopts the *Date* element in combination with *dateType* attributes from DataCite MetadataKernel v4.1 which replaces the ``info:eu-repo/date/EmbargoEnd`` syntax.
+* introducido como `info:eu-repo/date/embargoEnd/[YYYY-MM-DD] <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-DateTypesandvalue>`_ en versiones anteriores de las Directrices de OpenAIRE.
+* esta versión del perfil de aplicación adopta el elemento date en combinación con atributos *dateType* de DataCite MetadataKernel v4.1, con lo cual se  reemplaza la sintaxis: ``info:eu-repo/date/EmbargoEnd``.
 
-When :ref:`dci:accessrights` is set to::
+Cuando :ref:`dci:accessrights` toma el siguiente valor:
 
     <datacite:rights uri="http://purl.org/coar/access_right/c_f1cf">embargoed access</<datacite:rights>
 
-the start and end date of the embargo period must be provided.
+se debe proporcionar la fecha de inicio y finalización del período de embargo.
 
-Property date (MA, 2)
------------------------
-
-Use the date of the embargo start as value in one property and the date of the embargo end in the other property.
-
-Attribute dateType (M)
+Propiedad date (MA, 2)
 ----------------------
 
-The type of date. Choose from the :ref:`date type <vocab:datetype_datetype>` vocabulary the controlled term ``Accepted`` to indicate the start and the term ``Available`` to indicate the end of an embargo period.
+Use la fecha de inicio del embargo como valor en una instancia y la fecha de finalización en otra instancia.
 
-Example
+Atributo dateType (M)
+---------------------
+
+Tipo de fecha. Elija del vocabulario de :ref:`date type <vocab:datetype_datetype>` el término controlado ``Accepted`` para indicar el inicio y el término ``Available`` para indicar el final de un período de embargo.
+
+Ejemplo
 ~~~~~~~
 .. code-block:: xml
    :linenos:
