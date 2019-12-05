@@ -1,49 +1,49 @@
 .. _dc:publisher:
 
-Publisher (MA)
+Editorial (MA)
 ==============
 
 ``dc:publisher``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Mandatory if applicable*
+*Es obligatorio cuando corresponda*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+**Definición según la Iniciativa de Metadatos de Dublin Core (DCMI, por sus siglas en inglés)**
 
-An entity responsible for making the resource available. Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.
+Entidad responsable de hacer que el recurso esté disponible. Puede ser una persona, una organización o un servicio. Normalmente, el nombre de una editorial debe usarse para indicar la entidad.
 
-**Usage Instruction**
+**Instrucciones de uso**
 
-The (commercial or non-commercial) publisher of the resource; not the (sub)institution the author is affiliated with. Publisher is used only in the bibliographic / functional sense, not an organisational one. Use only the full name of the given (commercial) publisher, not the name of an organization or institute that is otherwise [in a broader sense] associated with the creator.
+Se trata de la editorial (ya sea comercial o no comercial) del recurso, no la (sub) institución de afiliación del autor. La editorial se usa solo en el sentido bibliográfico o funcional, no en el organizacional. Use solo el nombre completo de la editorial (comercial), no el nombre de cualquier organización o instituto que de otra manera [en un sentido más amplio] esté asociado con el creador.
 
-With university publications place the name of the faculty and/or research group or research school after the name of the university. In the case of organizations where there is clearly a hierarchy present, list the parts of the hierarchy from largest to smallest, separated by full stops. If it is not clear whether there is a hierarchy present, or unclear which is the larger or smaller portion of the body, give the name as it appears in the eprint.
+Con las publicaciones universitarias, coloque el nombre de la facultad, el grupo de investigación o la escuela de investigación después del nombre de la universidad. En el caso de organizaciones donde claramente hay una jerarquía presente, incluya una lista de las partes de la jerarquía desde la más alta a la más baja, separadas por puntos. Si no está claro si hay una jerarquía presente o cuál es la parte más alta o más baja de la organización, indique el nombre tal como aparece en la impresión electrónica.
 
-The use of publisher names from authority lists constructed according to local or national thesaurus files is optional.
+Es opcional usar nombres de editoriales tomados de listas de autoridades elaboradas a partir de listas de autoridades o tesauros locales o nacionales.
 
-**Do Not Confuse With**
+**No confundir con**
 
 * :ref:`dci:contributor`
 * :ref:`dci:creator`
 
-In most cases the publisher and the creator are not the same.
+En la mayoría de los casos, la editorial y el creador no son los mismos.
 
-**Remarks**
+**Observaciones**
 
-* introduced in `DRIVER Guidelines v2 element publisher`_
+* introducido en `DRIVER Guidelines v2 element publisher`_
 
-Property publisher (MA, 0-n)
-----------------------------
+Propiedad publisher (MA, 0-n)
+-----------------------------
 
-Use the name of the publisher as value.
+Utilice el nombre de la editorial como valor.
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
