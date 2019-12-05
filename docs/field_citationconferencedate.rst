@@ -1,45 +1,45 @@
 .. _aire:citationConferenceDate:
 
-Citation Conference Date (R)
-============================
+Fecha de la conferencia de la cita (R)
+======================================
 
 ``oaire:citationConferenceDate``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 0-1*
+*Ocurrencia: 0-1*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The date when the conference took place. This property is considered to be part of the bibliographic citation. Recommended best practice for encoding the date value is defined in a profile of `ISO 8601 [W3CDTF] <https://www.iso.org/iso-8601-date-and-time-format.html>`_ and follows the ``YYYY-MM-DD`` format.
+Se refiere a la fecha en la que tuvo lugar la conferencia. Esta propiedad se considera parte de la cita bibliográfica. La mejor práctica recomendada para codificar el valor de la fecha se define en un perfil de la norma `ISO 8601 [W3CDTF] <https://www.iso.org/iso-8601-date-and-time-format.html>`_ y sigue el formato ``AAAA-MM-DD``.
 
-**Usage Instruction**
+**Instrucciones de uso**
 
-The date should be formatted according to the W3C encoding rules for dates and times:
+La fecha se debe formatear de acuerdo con las reglas de codificación de W3C para las fechas y horas:
 
-**Complete date:**
+**Fecha completa:**
 
-``YYYY-MM-DD`` (e.g. 1997-07-16)
+``AAAA-MM-DD`` (e.g. 1997-07-16)
 
-where:
+donde:
 
-* ``YYYY`` [four-digit year]
-* ``MM`` [two-digit month (01=January, etc.)]
-* ``DD`` [two-digit day of month (01 through 31)]
+* ``AAAA`` [año de cuatro dígitos]
+* ``MM`` [mes de dos dígitos (01=enero, etc.)]
+* ``DD`` [día de dos dígitos (del 01 al 31)]
 
-Property citationConferenceDate (R, 0-1)
+Propiedad citationConferenceDate (R, 0-1)
 ----------------------------------------
 
-Use the *single date* or *start date* and *end date* as values following these patterns:
+Use la *fecha única* or *fecha de inicio* y *fecha de finalización* como valores siguiendo estos patrones:
 
-* ``YYYY-MM-DD`` [*single date*]
-* ``YYYY-MM-DD - YYYY-MM-DD`` [*start date* - *end date*]
+* ``AAAA-MM-DD`` [*fecha única*]
+* ``AAAA-MM-DD - AAAA-MM-DD`` [*fecha de inicio* - *fecha de finalización*]
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
