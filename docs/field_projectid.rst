@@ -25,7 +25,7 @@ Información sobre el apoyo financiero (financiamiento) para el recurso que se v
 
 * se introdujo como ``info:eu-repo/grantAgreement`` en versiones anteriores de las Directrices de OpenAIRE.
 * se adopta el elemento fundingReference y sus subpropiedades de DataCite MetadataKernel v4.1, el cual reemplaza la sintaxis ``info:eu-repo/grantAgreement``.
-* adding subproperty fundingStream to this application profile
+* se agrega la subpropiedad fundingStream  a este perfil de aplicación.
 
 Propiedad fundingReference (MA, 0-n)
 ------------------------------------
