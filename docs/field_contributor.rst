@@ -95,7 +95,7 @@ URI del esquema de identificación de nombres (ocurrencia: 0-1).
 .. _dci:contributor_affiliation:
 
 Subpropiedad affiliation (R)
----------------------------_
+----------------------------
 
 Afiliación organizacional o institucional del colaborador.
 
