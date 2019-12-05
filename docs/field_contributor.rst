@@ -76,7 +76,7 @@ Nombre propio o de pila del colaborador (ocurrencia: 0-1).
 Subpropiedad nameIdentifier (R)
 -------------------------------
 
-Identifica de forma única a una persona física o jurídica, según varios esquemas (occurrence: 0-n).
+Identifica de forma única a una persona física o jurídica, según varios esquemas (ocurrencia: 0-n).
 
 .. _dci:contributor_nameIdentifierScheme:
 
