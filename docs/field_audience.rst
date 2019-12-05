@@ -1,53 +1,53 @@
 .. _dct:audience:
 
-Audience (O)
-============
+Audiencia (O)
+=============
 
 ``dcterms:audience``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Optional*
+*Opcional*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+**Definición según la Iniciativa de Metadatos de Dublin Core (DCMI, por sus siglas en inglés)**
 
-A class of entity for whom the resource is intended or useful.
+Clase de entidad a la que se destina o para la que es útil el recurso.
 
-**Usage Instruction**
+**Instrucciones de uso**
 
-A class of entity may be determined by the creator or the publisher or by a third party. An example of audiences given is derived from the `Common Education Data Standards vocabulary`_. Please note the list is not exhaustive.
+La clase de entidad puede determinarla el creador, la editorial o un tercero. Un ejemplo de audiencias se deriva del `Vocabulario de estándares comunes de datos de educación (*Common Education Data Standards vocabulary*)`_. Tenga en cuenta que esta noes una lista exhaustiva.
 
-* Administrators
-* Community Groups
-* Counsellors
-* Federal Funds Recipients and Applicants
-* Librarians
-* News Media
-* Other
-* Parents and Families
-* Policymakers
-* Researchers
-* School Support Staff
-* Student Financial Aid Providers
-* Students
-* Teachers
+* Administradores
+* Grupos de la comunidad
+* Consejeros
+* Receptores y solicitantes de fondos federales
+* Bibliotecólogos
+* Medios de comunicación
+* Otros
+* Padres y familias
+* Autoridades que crean las políticas
+* Investigadores
+* Personal de apoyo escolar
+* Proveedores de ayuda financiera para estudiantes
+* Estudiantes
+* Educadores
 
-**Remarks**
+**Observaciones**
 
-* introduced in `DRIVER Guidelines v2 element audience`_
+* introducido en `DRIVER Guidelines v2 element audience`_
 
-Property audience (O, 0-n)
---------------------------
+Propiedad audience (O, 0-n)
+---------------------------
 
-Use the class of entity as value.
+Usa la clase de entidad como valor.
 
-Example
+Ejemplo
 ~~~~~~~
 .. code-block:: xml
    :linenos:
