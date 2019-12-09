@@ -1,38 +1,38 @@
 .. _dci:size:
 
-Size (O)
+Tamaño (O)
 ========
 
 ``datacite:size``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Optional*
+*Opcional*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Unstructured size information about the resource.
+Información no estructurada sobre el tamaño del recurso.
 
-**Allowed values, examples, other constraints**
+**Valores permitidos, ejemplos y otras restricciones**
 
-Free text.
+Texto libreo.
 
-Examples: "15 pages", "6 MB"
+Ejemplos: "15 páginas", "6 MB"
 
-**Remarks**
+**Observaciones**
 
-* adapted from `DataCite MetadataKernel`_ v4.1
+* adaptado de `DataCite MetadataKernel`_ v4.1
 
-Property size (O, 0-n)
-----------------------
+Propiedad size (O, 0-n)
+-----------------------
 
-Use size information as value. Repeat the property for different size information domains.
+Use la información del tamaño como valor. Repita la propiedad para diferentes dominios de información de tamaño.
 
-Example
+Ejemplo
 ~~~~~~~
 .. code-block:: xml
    :linenos:
