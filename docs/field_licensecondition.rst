@@ -1,47 +1,46 @@
 .. _aire:licenseCondition:
 
-License Condition (R)
-=====================
+Condición de la licencia (R)
+============================
 
 ``oaire:licenseCondition``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 1*
+*Ocurrencia: 1*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+**Definición según la Iniciativa de Metadatos de Dublin Core (DCMI, por sus siglas en inglés)**
 
-Information about license rights held in and over the resource.
+Información sobre los derechos de licencia mantenidos sobre el recurso.
 
-**Usage Instruction**
+**Instrucciones de uso**
 
-Typically, a *licenseCondition* element will contain a rights management statement for the access or use of the object, or reference a service providing such information. Rights information often encompasses Intellectual Property Rights (IPR), Copyright, and various Property Rights. It is preferred to refer to a rights service where the reuse rights are made clear to the end-user by using a URL. For example the Creative Commons organisation has created URIs for their different licences in the different jurisdictions. This can be applied to create machine readable usage licenses.
+Normalmente, un elemento *licenseCondition* tiene una declaración de la administración de derechos para el uso del objeto o una referencia a un servicio que proporcione dicha información. La información sobre los derechos a menudo abarca los Derechos de Propiedad Intelectual (DPI), los Derechos de Autor y varios Derechos de Propiedad. Es preferible referirse a un servicio de derechos donde al usuario final se le expliquen los derechos de reutilización mediante el uso de un URL. Por ejemplo, la organización Creative Commons ha creado identificadores URI para sus diferentes licencias en distintas jurisdicciones. Esto se puede aplicar para crear licencias de uso legibles por máquina.
 
-Property licenseCondition (R, 1)
---------------------------------
+Propiedad licenseCondition (R, 1)
+---------------------------------
 
-Use the name of the license as value.
+Utilice el nombre de la licencia como valor.
 
-Attribute uri (MA)
-------------------
+Atributo uri (MA)
+-----------------
 
-The URL provides the location where the license can be read. With creative common licenses the type of license can be recognized in the URL name itself. A pro for having the license point to an URL in this way, is that this is machine readable.
+El URL proporciona la ubicación donde se puede leer la licencia. Con las licencias de Creative Commons, el tipo de licencia se puede reconocer en el mismo nombre del URL. Una razón a favor de tener la licencia ligada a una URL de esta manera es que la puede leer una máquina.
 
-Attribute startDate (MA)
-------------------------
+Atributo startDate (MA)
+-----------------------
 
-This attribute indicates the date when the license comes into effect.
-Recommended best practice for encoding the date value is defined in a profile of ISO 8601 [W3CDTF] and follows the ``YYYY-MM-DD`` format.
-
+Este atributo indica la fecha en que la licencia entra en vigor. La mejor práctica recomendada para codificar el valor de la fecha se define en un perfil de la norma ISO 8601 [W3CDTF] y sigue el formato ``AAAA-MM-DD``.
 
 
-Example
+
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
