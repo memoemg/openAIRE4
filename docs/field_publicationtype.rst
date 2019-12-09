@@ -1,63 +1,63 @@
 .. _aire:resourceType:
 
-Resource Type (M)
-=================
+Tipo de recurso (M)
+===================
 
 ``oaire:resourceType``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Mandatory*
+*Obligatorio*
 
-*Occurrence: 1*
+*Ocurrencia: 1*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The type of scientific output the resource is a manifestation of. It describes the genre of the resource.
+Tipo de producción científica de la que es manifestación el recurso. Describe el género del recurso.
 
-**Usage**
+**Uso**
 
-The attribute *resourceTypeGeneral* is used to categorize the resource to belong to a main class of research outputs.
-The attribute *uri* holds an HTTP URI of a resource type concept and indicates the sub-property of *resourceTypeGeneral*.
-The label of this concept is used as value for the *ResourceType* element.
+El atributo *resourceTypeGeneral* se usa para categorizar el recurso como perteneciente a una clase principal de resultados de investigación.
+El atributo *uri* contiene el URI HTTP del concepto de un tipo de recurso e indica la subpropiedad de *resourceTypeGeneral*.
+La etiqueta de este concepto se utiliza como valor para el elemento *ResourceType*.
 
-**Do Not Confuse With**
+**No confundir con**
 
-* :ref:`dc:format` which describes the media type of this resource.
+* :ref:`dc:format` que describe el tipo de medio de este recurso.
 
-**Remarks**
+**Observaciones**
 
-* former versions of the OpenAIRE Guidelines used the `info:eu-repo vocabulary for publication types <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-Publicationtypes>`_.
-* adopting *resourceType* element from DataCite MetadataKernel v4.1.
-* adding the *uri* attribute for resource type concept URI to this application profile
+* las versiones anteriores de las Directrices OpenAIRE utilizaban el `vocabulario info:eu-repo para tipos de publicaciones <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-Publicationtypes>`_.
+* se adopta el elemento resourceType de DataCite MetadataKernel v4.1.
+* se agrega a este perfil de aplicación el atributo uri para el URI del concepto de tipo de recurso.
 
-Property resourceType (M, 1)
-----------------------------
+Propiedad resourceType (M, 1)
+-----------------------------
 
-Use the label of the resource type term as value. In the below table the preferred English labels are listed, but labels (preferred or alternative) in other languages can be chosen from the COAR Resource Type Vocabulary.
+Utilice la etiqueta del término de tipo de recurso como valor. En la siguiente tabla se enumeran las etiquetas preferidas en inglés. Sin embargo, se pueden elegir etiquetas (preferidas o alternativas) en otros idiomas del Vocabulario de Tipos de Recursos de la Confederación de Repositorios de Acceso Abierto (COAR, por sus siglas en inglés).
 
-Attribute resourceTypeGeneral (M)
----------------------------------
+Atributo resourceTypeGeneral (M)
+--------------------------------
 
-The general type of a resource.
+Se refiere al tipo general de un recurso.
 
-*Controlled list values*
+*Valores de la lista controlada:*
 
-* ``literature``
-* ``dataset``
-* ``software``
-* ``other research product``
+* ``literature`` - literatura
+* ``dataset`` - conjunto de datos
+* ``software`` - software
+* ``other research product`` - otro producto de investigación
 
-Attribute uri (M)
------------------
+Atributo uri (M)
+----------------
 
-Use terms from the `COAR Resource Type Vocabulary`_ (occurrence: 1).
+Use términos del `Vocabulario de tipo de recurso de COAR (COAR Resource Type Vocabulary)`_ (ocurrencia: 1).
 
 .. include:: vocabularies/resourcetype.rst
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
