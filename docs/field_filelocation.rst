@@ -1,57 +1,57 @@
 .. _aire:file:
 
-File Location (MA)
-==================
+Ubicación del archivo (MA)
+==========================
 
 ``oaire:file``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An unambiguous reference to the files, e.g. fulltext, the resource is associated with. Repeat the property for each associated file.
+Referencia no ambigua a los archivos con los que se asocia el recurso, por ejemplo, el texto completo. Repita la propiedad para cada archivo asociado.
 
-Property file (MA, 0-n)
------------------------
-
-Use the HTTP URI of the file as value.
-
-Attribute accessRightsURI (R)
------------------------------
-
-Use terms from the `COAR Access Right Vocabulary`_.
-
-======================================== ========================
-conceptURI                               label
-======================================== ========================
-http://purl.org/coar/access_right/c_abf2 ``open access``
-http://purl.org/coar/access_right/c_f1cf ``embargoed access``
-http://purl.org/coar/access_right/c_16ec ``restricted access``
-http://purl.org/coar/access_right/c_14cb ``metadata only access``
-======================================== ========================
-
-Attribute mimeType (R)
-----------------------
-
-Specify the file format. It is recommended to select it from the MIME media type which is registered in IANA. For the full list see http://www.iana.org/assignments/media-types
-
-Attribute objectType (R)
+Propiedad file (MA, 0-n)
 ------------------------
 
-Specify the type of object the file represents. Select it from the following controlled list:
+Utilice el URI HTTP del archivo como valor.
 
-* ``fulltext``
-* ``dataset``
-* ``software``
-* ``other``
+Atributo accessRightsURI (R)
+----------------------------
 
-Example
+Use los términos del Vocabulario de derechos de acceso de COAR (`COAR Access Right Vocabulary`_).
+
+======================================== ========================
+URI del concepto                               Etiqueta
+======================================== ========================
+http://purl.org/coar/access_right/c_abf2 ``acceso abierto``
+http://purl.org/coar/access_right/c_f1cf ``acceso embargado``
+http://purl.org/coar/access_right/c_16ec ``acceso restringido``
+http://purl.org/coar/access_right/c_14cb ``registro bibliográfico``
+======================================== ========================
+
+Atributo mimeType (R)
+---------------------
+
+Especifique el formato de archivo. Se recomienda seleccionarlo a partir del tipo de medio MIME, el cual está registrado en IANA. Para ver la lista completa, consulte http://www.iana.org/assignments/media-types.
+
+Atributo objectType (R)
+-----------------------
+
+Especifique el tipo de objeto que representa el archivo. Selecciónelo de la siguiente lista controlada:
+
+* ``fulltext`` - texto completo
+* ``dataset`` - conjunto de datos
+* ``software`` - software
+* ``other`` - otro
+
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
