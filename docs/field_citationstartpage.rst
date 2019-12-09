@@ -1,28 +1,28 @@
 .. _aire:citationStartPage:
 
-Citation Start Page (R)
-=======================
+Página de inicio de la cita (R)
+===============================
 
 ``oaire:citationStartPage``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 0-1*
+*Ocurrencia: 0-1*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The start page is part of the pagination information of the work published in a container (e.g. journal issue). This property is considered to be part of the bibliographic citation.
+La página de inicio es parte de la información de paginación del trabajo publicado (por ejemplo, la página de inicio de un artículo dentro de un número de una revista). Esta propiedad se considera parte de la cita bibliográfica.
 
-Property citationStartPage (R, 0-1)
------------------------------------
+Propiedad citationStartPage (R, 0-1)
+------------------------------------
 
-Use the start page number as value.
+Utilice el número de la página de inicio como valor.
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
