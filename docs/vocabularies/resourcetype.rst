@@ -32,7 +32,7 @@ http://purl.org/coar/resource_type/c_baaf     ``propuesta de investigación``
 http://purl.org/coar/resource_type/c_ba1f     ``parte de un estudio``
 http://purl.org/coar/resource_type/c_93fc     ``informe``
 http://purl.org/coar/resource_type/c_15cd     ``patente``
-http://purl.org/coar/resource_type/c_18co     ``póster no publicado en actas de congreso`
+http://purl.org/coar/resource_type/c_18co     ``póster no publicado en actas de congreso``
 http://purl.org/coar/resource_type/c_18cp     ``comunicación no publicada en actas de congreso``
 http://purl.org/coar/resource_type/c_6670     ``póster de congreso``
 http://purl.org/coar/resource_type/c_5794     ``comunicación de congreso``
