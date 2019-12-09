@@ -1,28 +1,28 @@
 .. _aire:citationEndPage:
 
-Citation End Page (R)
-=====================
+Página final de la cita (R)
+===========================
 
 ``oaire:citationEndPage``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 0-1*
+*Ocurrencia: 0-1*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The end page is part of the pagination information of the work published in a container (e.g. journal issue). This property is considered to be part of the bibliographic citation.
+La página de inicio es parte de la información de paginación del trabajo publicado (por ejemplo, el último número de la página del artículo dentro de un número de una revista). Esta propiedad se considera parte de la cita bibliográfica.
 
-Property citationEndPage (R, 0-1)
----------------------------------
+Propiedad citationEndPage (R, 0-1)
+----------------------------------
 
-Use the end page number as value.
+Utilice el número de página final como valor.
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
