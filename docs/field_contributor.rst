@@ -36,7 +36,7 @@ Propiedad contributor (MA, 0-n)
 Atributo contributorType (M)
 ----------------------------
 
-Tipo de colaborador del recurso (ocurrencia: 1). Es obligatorio si se utiliza *colaborador* [*contributor*].
+Tipo de colaborador del recurso (ocurrencia: 1). Es obligatorio si se utiliza colaborador [*contributor*].
 
 .. include:: vocabularies/contributortype.rst
 
