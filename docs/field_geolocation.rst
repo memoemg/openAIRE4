@@ -1,143 +1,143 @@
 .. _dci:geolocation:
 
-Geo Location (O)
-================
+Ubicación geográfica (O)
+========================
 
 ``datacite:geoLocation``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Optional*
+*Opcional*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Spatial region or named place where the data was gathered or about which the data is focused.
+Región espacial o nombre del lugar donde se recopilaron los datos o sobre los que se enfocaron los datos.
 
-Property geoLocation (O, 0-n)
------------------------------
+Propiedad geoLocation (O, 0-n)
+------------------------------
 
-Repeat this property to indicate several different locations.
+Repita esta propiedad para indicar varias ubicaciones diferentes.
 
 .. _d:geolocationpoint:
 
-Subproperty geoLocationPoint (O)
-********************************
+Subpropiedad geoLocationPoint (O)
+*********************************
 
-A point location in space (occurrences: 0-1).
+Punto de ubicación en el espacio (ocurrencia: 0-1).
 
-A point contains a single latitude-longitude pair.
+Un punto contiene un único par de latitud-longitud.
 
-See :ref:`d:geolocation_instructions`.
+Véanse las :ref:`d:geolocation_instructions`.
 
 pointLongitude (M)
 ++++++++++++++++++
 
-Longitudinal dimension of point (occurrence: 1).
+Dimensión longitudinal del punto (ocurrencia: 1).
 
-Mandatory if *geoLocationPoint* is used.
+Es obligatorio si se usa *geoLocationPoint*.
 
 pointLatitude (M)
 +++++++++++++++++
 
-Latitudinal dimension of point (occurrence: 1).
+Dimensión latitudinal del punto (ocurrencia: 1).
 
-Mandatory if *geoLocationPoint* is used.
+Es obligatorio si se usa *geoLocationPoint*.
 
 .. _d:geolocationbox:
 
-Subproperty geoLocationBox (O)
-******************************
+Subpropiedad geoLocationBox (O)
+*******************************
 
-The spatial limits of a place or box (occurrences: 0-1).
+Límites espaciales de un lugar o un cuadro (ocurrencias: 0-1).
 
-**Allowed values, examples, other constraints**
+**Valores permitidos, ejemplos y otras restricciones**
 
-A box is defined by two geographic points. Left lower corner (normally south west), right upper corner (normally north east). Each point is defined by its longitude and latitude.
+Un cuadro se define por dos puntos geográficos: esquina inferior izquierda (normalmente suroeste), esquina superior derecha (normalmente noreste). Cada punto está definido por su longitud y latitud.
 
-See :ref:`d:geolocation_instructions`.
+Véanse las :ref:`d:geolocation_instructions`.
 
 westBoundLongitude (M)
 ++++++++++++++++++++++
 
-Western longitudinal dimension of box. Mandatory if *geoLocationBox* is used.
+Dimensión longitudinal occidental del cuadro. Es obligatorio si se usa *geoLocationBox*.
 
 eastBoundLongitude (M)
 ++++++++++++++++++++++
 
-Eastern longitudinal dimension of box. Mandatory if *geoLocationBox* is used.
+Dimensión longitudinal oriental del cuadro. Es obligatorio si se usa *geoLocationBox*.
 
 southBoundLatitude (M)
 ++++++++++++++++++++++
 
-Southern latitudinal dimension of box. Mandatory if *geoLocationBox* is used.
+Dimensión latitudinal sur del cuadro. Es obligatorio si se usa *geoLocationBox*.
 
 northBoundLatitude (M)
 ++++++++++++++++++++++
 
-Northern latitudinal dimension of box. Mandatory if *geoLocationBox* is used.
+Dimensión latitudinal norte del cuadro. Es obligatorio si se usa *geoLocationBox*.
 
 .. _d:geolocationplace:
 
-Subproperty geoLocationPlace (O)
-********************************
+Subpropiedad geoLocationPlace (O)
+*********************************
 
-Description of a geographic location (occurrences: 0-1).
+Descripción de una ubicación geográfica (ocurrencias: 0-1).
 
-**Allowed values, examples, other constraints**
+**Valores permitidos, ejemplos y otras restricciones**
 
-Free text. Use to describe a geographic location.
+Texto libre. Úsese para describir una ubicación geográfica.
 
-Subproperty geoLocationPolygon (O)
-**********************************
+Subpropiedad geoLocationPolygon (O)
+***********************************
 
-A drawn polygon area, defined by a set of points and lines connecting the points in a closed chain (occurrences: 0-n).
+Área de un polígono trazado, definida por un conjunto de puntos y líneas que conectan los puntos en una cadena cerrada (ocurrencias: 0-n).
 
 polygonPoint (M)
 ++++++++++++++++
 
-A point location in a polygon (occurrences: 4-n). Mandatory if *geoLocationPolygon* is used.
+Punto de ubicación en un polígono (ocurrencias: 4-n). Es obligatorio si se usa *geoLocationPolygon*.
 
 pointLongitude (M)
 ^^^^^^^^^^^^^^^^^^
 
-Longitudinal dimension of point (occurrence: 1). Mandatory if *polygonPoint* is used.
+Dimensión longitudinal del punto (ocurrencia: 1). Es obligatorio si se usa *polygonPoint*.
 
 
 pointLatitude (M)
 ^^^^^^^^^^^^^^^^^
 
-Latitudinal dimension of point (occurrence: 1). Mandatory if *polygonPoint* is used.
+Dimensión latitudinal del punto (ocurrencia: 1). Es obligatorio si se usa *polygonPoint*.
 
 inPolygonPoint (O)
 ++++++++++++++++++
 
-For any bound area that is larger than half the earth, define a (random) point inside.
+Para cualquier área delimitada que sea mayor que la mitad de la Tierra, defina un punto (aleatorio) en el interior.
 
 pointLongitude (M)
 ^^^^^^^^^^^^^^^^^^
 
-Longitudinal dimension of point (occurrence: 1). Mandatory if *inPolygonPoint* is used.
+Dimensión longitudinal del punto (ocurrencia: 1). Es obligatorio si se usa *inPolygonPoint*.
 
 pointLatitude (M)
 ^^^^^^^^^^^^^^^^^
 
-Latitudinal dimension of point (occurrence: 1). Mandatory if *inPolygonPoint* is used.
+Dimensión latitudinal del punto (ocurrencia: 1). Es obligatorio si se usa *inPolygonPoint*.
 
 .. _d:geolocation_instructions:
 
-Detailed usage instructions
-***************************
-Use WGS 84 (World Geodetic System) coordinates. Use only decimal numbers for coordinates. Longitudes are -180 to 180 (0 is Greenwich, negative numbers are west, positive numbers are east), Latitudes are -90 to 90 (0 is the equator; negative numbers are south, positive numbers north).
+Instrucciones detalladas de uso
+*******************************
+Utilice las coordenadas WGS 84 (Sistema Geodésico Mundial). Use solo números decimales para las coordenadas. Las longitudes van de -180 a 180 (donde 0 es Greenwich, los números negativos son al oeste y los positivos al este), mientras que las latitudes van de -90 a 90 (donde 0 es el ecuador y los números negativos son al sur y los positivos al norte).
 
-**Remarks**
+**Observaciones**
 
-* adapted from `DataCite MetadataKernel`_ v4.1
+* adaptado de `DataCite MetadataKernel`_ v4.1
 
-Example
+Ejemplo
 ~~~~~~~
 .. code-block:: xml
    :linenos:
