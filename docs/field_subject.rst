@@ -1,76 +1,74 @@
 .. _dci:subject:
 
-Subject (MA)
+Materia (MA)
 ============
 
 ``datacite:subject``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Mandatory if applicable*
+*Es obligatorio cuando corresponda*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Subject, keyword, classification code, or key phrase describing the resource (occurrences: 0-n).
+Materia, palabra clave, código de clasificación o frase clave que describe el recurso (ocurrencias: 0-n).
 
 
-**Usage Instruction**
+**Instrucciones de uso**
 
-In the subject property two kinds of values are possible: encode either a keyword or a classification. 
+En la propiedad *subject* puede haber dos tipos de valores: ya sea una palabra clave o una clasificación.
 
-In general, choose the most significant and unique words for keywords, avoiding those too general to describe a particular resource. 
+En general, elija las palabras más significativas y únicas para las palabras clave y evite las que sean demasiado generales para describir un recurso en particular.
 
-For keywords/keyphrases that are not controlled by a vocabulary or thesaurus either encode multiple terms with a semi-colon separating each keyword/keyphrase;
-or repeat the element for each term. There are no requirements regarding the capitalization of keywords though internal (within archive) consistency is recommended.
+Para las palabras clave o frases clave que no estén controladas por un vocabulario o tesauro, separe con un punto y coma cada palabra clave o frase clave, o repita el elemento para cada término. No hay requisitos con respecto al uso de mayúsculas en las palabras clave, aunque se recomienda la consistencia interna (dentro de un mismo archivo).
 
-Where terms are taken from a standard classification schema: encode each term using the additional attributes of the subject property. Encode the complete subject descriptor according to the relevant scheme. Use the capitalisation and punctuation used in the original scheme.
+En los casos en los que los términos se tomen de un esquema de clasificación estándar, codifique cada término mediante el uso de los atributos adicionales de la propiedad *subject*. Codifique todo el descriptor *subject* de acuerdo con el esquema relevante. Use las mayúsculas y la puntuación tal como están en el esquema original.
 
-It is recommended to use an URI when using classification schemes or controlled vocabularies especially when codified schemes are used DDC or UDC. Service providers can recognise encoding schemas more easy when the schema is “URI-fied” by an authority namespace. 
+Se recomienda utilizar un URI cuando se usen esquemas de clasificación o vocabularios controlados, especialmente cuando se usen esquemas codificados como la Clasificación Decimal Dewey (DDC, por sus siglas en inglés) o la Clasificación Decimal Universal (UDC, por sus siglas en inglés). Los proveedores de servicios pueden reconocer esquemas de codificación más fácilmente cuando el esquema utiliza URIs en un espacio de nombres para la autoridad.
 
-If no specific classification scheme is used we recommend the Dewey Decimal Classification (DDC). 
-More information about the DDC and the DDC Summaries can be found at https://www.oclc.org/en/dewey/resources.html . Please note that OCLC owns all copyright rights in the Dewey Decimal Classification system. Dewey, Dewey Decimal Classification, DDC, OCLC and WebDewey are registered trademarks of OCLC.
+Si no se utiliza ningún esquema de clasificación específico, recomendamos usar la Clasificación Decimal de Dewey (DDC, por sus siglas en inglés). Se puede encontrar más información sobre la DDC y los Resúmenes de DDC en https://www.oclc.org/en/dewey/resources.html. Tenga en cuenta que OCLC posee todos los derechos de autor del Sistema de Clasificación Decimal de Dewey. Dewey, Dewey Decimal Classification, DDC, OCLC y WebDewey son marcas registradas de OCLC.
 
-**Remarks**
+**Observaciones**
 
-* adapted from `DataCite MetadataKernel`_ v4.1
+* adaptado de `DataCite MetadataKernel`_ v4.1
 
-Property subject (MA, 0-n)
---------------------------
+Propiedad subject (MA, 0-n)
+---------------------------
 
-Use subject name or keyword as value.
+Utilice el nombre de la materia o la palabra clave como valor.
 
 .. _dci:subject_subjectScheme:
 
-Attribute subjectScheme (O)
----------------------------
-The name of the subject scheme or classification code or authority if one is used (occurrences: 0-1).
+Atributo subjectScheme (O)
+--------------------------
+Nombre del esquema de la materia o código de clasificación o autoridad, si se usa alguno de ellos (ocurrencias: 0-1).
 
-**Allowed values, examples, other constraints**
+**Valores permitidos, ejemplos y otras restricciones**
 
-Free text.
+Texto libre.
 
 .. _dci:subject_schemeUri:
 
-Attribute schemeURI (O)
------------------------
-The URI of the subject identifier scheme (occurrences: 0-1).
+Atributo schemeURI (O)
+----------------------
+URI del esquema de identificador de materia (ocurrencia: 0-1).
 
-**Allowed values, examples, other constraints**
+**Valores permitidos, ejemplos y otras restricciones**
 
-Examples:
+Ejemplos:
 
 * http://id.loc.gov/authorities/subjects
 * http://dewey.info/
 
-Attribute valueURI (O)
-----------------------
-The URI of the subject term.
+Atributo valueURI (O)
+---------------------
+URI del término materia.
 
-Example
+Ejemplo
 ~~~~~~~
 .. code-block:: xml
    :linenos:
