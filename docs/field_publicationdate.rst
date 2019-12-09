@@ -1,72 +1,72 @@
 .. _dci:datePublication:
 
-Publication Date (M)
-====================
+Fecha de publicación (M)
+========================
 
 ``datacite:date``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Mandatory*
+*Obligatorio*
 
-*Occurrence: 1*
+*Ocurrencia: 1*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+**Definición según la Iniciativa de Metadatos de Dublin Core (DCMI, por sus siglas en inglés)**
 
-A date associated with an event in the life cycle of the resource. Typically, Date will be associated with the creation or availability of the resource. Recommended best practice for encoding the date value is defined in a profile of `ISO 8601 [W3CDTF] <https://www.iso.org/iso-8601-date-and-time-format.html>`_ and follows the ``YYYY-MM-DD`` format.
+Fecha asociada a un evento en el ciclo de vida del recurso. Normalmente, la fecha se asocia con la creación o disponibilidad del recurso. La mejor práctica recomendada para codificar el valor de la fecha se define en un perfil de la norma `ISO 8601 [W3CDTF] <https://www.iso.org/iso-8601-date-and-time-format.html>`_ y sigue el formato ``AAAA-MM-DD``.
 
-**Usage Instruction**
+**Instrucciones de uso**
 
-The date should be formatted according to the W3C encoding rules for dates and times:
+La fecha se debe formatear de acuerdo con las reglas de codificación de W3C para las fechas y horas:
 
-**Complete date:**
+**Fecha completa:**
 
-``YYYY-MM-DD`` (e.g. 1997-07-16)
+``AAAA-MM-DD`` (por ejemplo, 1997-07-16)
 
-where:
+donde:
 
-* ``YYYY`` [four-digit year] is ''mandatory''
-* ``MM`` [two-digit month (01=January, etc.)] is ''optional''
-* ``DD`` [two-digit day of month (01 through 31)] is ''optional''
+* ``AAAA`` [año de cuatro dígitos] es ''obligatorio''
+* ``MM`` [mes de dos dígitos (01=enero, etc.)] es ''opcional''
+* ``DD`` [día de dos dígitos (del 01 al 31)] es ''ociional''
 
-**One date field – Date of Publication:**
+**Sólo una fecha - Fecha de publicación:**
 
-Often repository systems have more than one date fields that serve different purposes. Date of creation, publication, modified, promotion, etc. Preferably in the end-users perspective the most logical and meaningful date will be the date of publication. 
+Los sistemas de repositorios a menudo tienen múltiples campos de fecha que sirven para diferentes propósitos: fecha de creación, publicación, modificación, promoción, etc. Preferiblemente, desde la perspectiva del usuario, la fecha más lógica y significativa es la fecha de publicación. 
 
-**No date of publication available:**
+**Sin fecha de publicación disponible:**
 
-If no date of publication is available, use any other date available. It is better to use one date than no date at all.
+Si no se cuenta con una fecha de publicación, use cualquier otra fecha disponible. Es mejor usar una fecha que no usar ninguna.
 
-**Datestamp additions:**
+**Adiciones a la marca de fecha:**
 
-Additions like “Zulu time” should NOT be part of the metadata.
+Las adiciones como "tiempo Zulu" NO deben ser parte de los metadatos.
 
-**Fuzzy dates:**
+**Fechas difusas:**
 
-For fuzzy dates use a logical year that most represents that period, e.g. ``1650`` instead of ``17th century``.
+Para las fechas difusas, use el año lógico que más represente ese período, por ejemplo, ``1650`` en lugar de ``siglo XVII``.
 
-To express more about that temporal period, one can use the ``dc:coverage`` field. A temporal period can be expressed in a standard way when precisely defined (see :ref:`dc:coverage`) or when “fuzzy” or uncertain by free text expressions. A service provider is able to sort dates based on date standards like W3CDTF. Since there is no standard for fuzzy dates for terms like “Renaissance” or “17th Century”, they will simply not appear on date-based query results.
+Para expresar más sobre ese período temporal, se puede usar el campo ``dc:coverage``. Un período temporal se puede expresar de manera estándar cuando se define con precisión (consulte la sección sobre :ref:`dc:coverage`) o cuando sea "difuso" o no sea claro al usar expresiones de texto libre. El proveedor de servicios puede ordenar las fechas según los estándares de fechas tales como W3CDTF. Dado que no hay una norma para fechas difusas para los términos como "Renacimiento" o "Siglo XVII", simplemente no aparecerán en los resultados de las consultas basadas en la fecha.
 
-**Remarks**
+**Observaciones**
 
-* introduced in `DRIVER Guidelines v2 element date`_
-* this version of the application profile adopts the *Date* element in combination with *dateType* attribute from `DataCite MetadataKernel`_ v4.1.
+* introducido en `DRIVER Guidelines v2 element date`_
+* esta versión del perfil de aplicación adopta el elemento date en combinación con el atributo *dateType* de `DataCite MetadataKernel`_ v4.1.
 
-Property date (M, 1)
---------------------
+Propiedad date (M, 1)
+---------------------
 
-Use the publication date as value.
+Utilice la fecha de publicación como valor.
 
-Attribute dateType (M)
-----------------------
+Atributo dateType (M)
+---------------------
 
-The type of date. Choose from the :ref:`date type <vocab:datetype_datetype>` vocabularyUse the controlled term ``Issued`` to indicate the date of publication.
+Tipo de fecha. Elija del uso de vocabulario del  :ref:`tipo de fecha <vocab:datetype_datetype>` el término controlado ``Issued`` para indicar la fecha de publicación.
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
