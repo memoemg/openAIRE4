@@ -41,18 +41,18 @@ Campo OpenAIRE                           Elemento de metadatos         Refinamie
 :ref:`dc:language`                       dc:language                   `IETF BCP 47`_, `ISO 639-3`_
 :ref:`dc:publisher`                      dc:publisher
 :ref:`dci:datePublication`               datacite:date                 :ref:`tipo de fecha <vocab:datetype_datetype>`
-:ref:`aire:resourceType`                 oaire:resourceType            `Vocabulario COAR Tipo de Recurso <`COAR Resource Type Vocabulary>`_
+:ref:`aire:resourceType`                 oaire:resourceType            `Vocabulario COAR Tipo de Recurso <COAR Resource Type Vocabulary>`_
 :ref:`dc:description`                    dc:description
 :ref:`dc:format`                         dc:format
 :ref:`dci:identifier`                    datacite:identifier           :ref:`tipo de identificador <vocab:identifiertype_identifiertype>`
-:ref:`dci:accessrights`                  datacite:rights               `Vocabulario COAR Derechos de Acceso <`COAR Access Right Vocabulary>`_
+:ref:`dci:accessrights`                  datacite:rights               `Vocabulario COAR Derechos de Acceso <COAR Access Right Vocabulary>`_
 :ref:`dc:source`                         dc:source
 :ref:`dci:subject`                       datacite:subject              
 :ref:`aire:licenseCondition`             oaire:licenseCondition
 :ref:`dc:coverage`                       dc:coverage
 :ref:`dci:size`                          datacite:size
 :ref:`dci:geolocation`                   datacite:geoLocation
-:ref:`aire:version`                      oaire:version                 `Vocabulario COAR Versión <`COAR Version Vocabulary>`_ 
+:ref:`aire:version`                      oaire:version                 `Vocabulario COAR Versión <COAR Version Vocabulary>`_ 
 :ref:`aire:file`                         oaire:file                    
 :ref:`aire:citationTitle`                oaire:citationTitle 	
 :ref:`aire:citationVolume`               oaire:citationVolume
