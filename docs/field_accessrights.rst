@@ -1,59 +1,58 @@
 .. _dci:accessrights:
 
-Access Rights (M)
-=================
+Derechos de acceso (M)
+======================
 
 ``datacite:rights``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Mandatory*
+*Obligatorio*
 
-*Occurrence: 1*
+*Ocurrencia: 1*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Access right of the resource.
+Derechos de acceso del recurso.
 
-Information about the right or mode the resource can be accessed.
-If the metadata describe more than one resource, e.g. fulltext and supplementary material, the access right of the main resource should be provided.
+Indica la información sobre los derechos o el modo en que se puede acceder el recurso. Si los metadatos describen más de un recurso, por ejemplo, un texto completo y el material complementario, se debe proporcionar la información sobre los derechos de acceso del recurso principal.
 
-Use terms from the `COAR Access Right Vocabulary`_ (occurrence: 1).
+Use los términos del Vocabulario de derechos de acceso de COAR `(COAR Access Right Vocabulary)`_ (ocurrencia: 1).
 
-======================================== ========================
-conceptURI                               label
-======================================== ========================
-http://purl.org/coar/access_right/c_abf2 ``open access``
-http://purl.org/coar/access_right/c_f1cf ``embargoed access``
-http://purl.org/coar/access_right/c_16ec ``restricted access``
-http://purl.org/coar/access_right/c_14cb ``metadata only access``
-======================================== ========================
+======================================== ==========================
+URI del concepto                               Etiqueta
+======================================== ==========================
+http://purl.org/coar/access_right/c_abf2 ``acceso abierto``
+http://purl.org/coar/access_right/c_f1cf ``acceso embargado``
+http://purl.org/coar/access_right/c_16ec ``acceso restringido``
+http://purl.org/coar/access_right/c_14cb ``registro bibliográfico``
+======================================== ==========================
 
 .. note::
-   Unlike DataCite, OpenAIRE restricts the use of this property to indicate the access right. 
+   A diferencia de DataCite, OpenAIRE restringe el uso de esta propiedad solo para indicar el derecho de acceso. 
 
-**Do Not Confuse With**
+**No confundir con**
 
-* :ref:`aire:licenseCondition` (Use ``oaire:licenseCondition`` for license information related to the resource.)
+* :ref:`aire:licenseCondition` (Use ``oaire:licenseCondition`` para obtener información sobre la licencia relacionada con el recurso).
 
-**Remarks**
+**Observaciones**
 
-* former versions of the OpenAIRE Guidelines used the `info:eu-repo-Access-Terms vocabulary <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-AccessRights>`_.
+* las versiones anteriores de las Directrices de OpenAIRE utilizaban el `vocabulario info:eu-repo-Access-Terms. <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-AccessRights>`_.
 
 
-Property accessRights (M, 1)
-----------------------------
+Propiedad accessRights (M, 1)
+-----------------------------
 
-Use the label of the vocabulary term as value.
+Use la etiqueta del término del vocabulario como valor.
 
-Attribute uri (M)
------------------
+Atributo uri (M)
+----------------
 
-Use the conceptURI of the vocabulary term.
+Use el URI del concepto del término del vocabulario.
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
