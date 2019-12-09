@@ -1,28 +1,28 @@
 .. _aire:citationVolume:
 
-Citation Volume (R)
-===================
+Volumen de la cita (R)
+======================
 
 ``oaire:citationVolume``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 0-1*
+*Ocurrencia: 0-1*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The volume, typically a number, of the container (e.g. journal). This property is considered to be part of the bibliographic citation.
+El volumen, normalmente un número (por ejemplo, de una revista). Esta propiedad se considera parte de la cita bibliográfica.
 
-Property citationVolume (R, 0-1)
---------------------------------
+Propiedad citationVolume (R, 0-1)
+---------------------------------
 
-Use the volume number as value.
+Utilice el número de volumen como valor.
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
