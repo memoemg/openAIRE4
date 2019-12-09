@@ -1,47 +1,47 @@
 .. _dc:coverage:
 
-Coverage (R)
-============
+Cobertura (R)
+=============
 
 ``dc:coverage``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
+Definición e instrucciones de uso
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The extent or scope of the content of the resource. Coverage will typically include temporal period (a period label, date, or date range).
+Alcance del contenido del recurso. La cobertura generalmente incluye un período temporal (una etiqueta de período, fecha o un rango de fechas).
 
-**Usage Instruction**
+**Instrucciones de uso**
 
-It is recommended to use literal or non-literal values. If necessary, repeat this element to encode multiple periods.
+Se recomienda utilizar valores literales o no literales. De ser necesario, repita este elemento para codificar múltiples períodos.
 
-**Remarks**
+**Observaciones**
 
-* introduced in `DRIVER Guidelines v2 element coverage`_
-* to describe spatial location information (a place name or geographic coordinates) use the property :ref:`dci:geolocation`
+* introducido en `DRIVER Guidelines v2 element coverage`_.
+* para describir información de ubicación espacial (un nombre de lugar o coordenadas geográficas) use la propiedad :ref:`dci:geolocation`
 
-Property coverage (R, 0-n)
---------------------------
+Propiedad coverage (R, 0-n)
+---------------------------
 
-Use temporal period as value.
+Utilice el período temporal como valor.
 
-Example
+Ejemplo
 ~~~~~~~
 
-Date range:
+Ejemplo temporal:
 
 .. code-block:: xml
    :linenos:
 
    <dc:coverage>2000-2010</dc:coverage>
 
-Period label:
+Ejemplo: nombre de un periodo:
 
 .. code-block:: xml
    :linenos:
