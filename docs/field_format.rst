@@ -1,51 +1,52 @@
 .. _dc:format:
 
-Format (R)
-==========
+Formato (R)
+===========
 
 ``dc:format``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+**Definición según la Iniciativa de Metadatos de Dublin Core (DCMI, por sus siglas en inglés)**
 
-The physical or digital manifestation of the resource. Typically, Format may include the media-type or dimensions of the resource. Format may be used to determine the software, hardware or other equipment needed to display or operate the resource. Examples of dimensions include size and duration. Recommended best practice is to select a value from a controlled vocabulary (for example, the list of Internet Media Types [MIME] defining computer media formats).
+Manifestación física o digital del recurso. Normalmente, *Format* incluye el tipo de medio. *Format* puede usarse para determinar el software, el hardware u otro equipo necesario para mostrar u operar el recurso. Para tener una mejor práctica se recomienda seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de Tipos de Medios de Internet [*MIME*, por sus siglas en inglés] que definen los formatos de medios de computadora)..
 
-**Usage Instruction**
+**Instrucciones de uso**
 
-Based on best practice, the IANA registered list of Internet Media Types (MIME types) is used to select a term from. For the full list see http://www.iana.org/assignments/media-types
+De acuerdo con las mejores prácticas, la lista registrada de IANA de los tipos de medios de Internet (tipos *MIME*) se utiliza para seleccionar un término. Para ver la lista completa, consulte http://www.iana.org/assignments/media-types
 
-If one specific resource (an instance of scientific output) has more than one physical formats (e.g. postscript and pdf) stored as different object files, all formats are mentioned in the DC element format, for example:
+Si un recurso específico (una instancia de producción científica) tiene más de un formato físico (por ejemplo, postscript y pdf) almacenados como diferentes archivos de objetos, mencionar cada formato en una instancia del elemento Dublin Core (DC) ``format``, por ejemplo:
 
 * ``<dc:format>application/pdf</dc:format>``
 * ``<dc:format>application/postscript</dc:format>``
 * ``<dc:format>application/vnd.oasis.opendocument.text</dc:format>``
 
-**Do Not Confuse With**
+**No confundir con**
 
 * :ref:`aire:resourceType`
 * :ref:`dci:identifier`
+* :ref:`datacite:size`
 
-DC element ``format`` describes the media type of this resource. ``oaire:resourceType`` describes the kind of academic output the resource is a representation of. ``datacite:identifier`` is used to represent the manifestation of the digital resource.
+El elemento Dublin Core (DC) ``format`` describe el tipo de medio de este recurso. Por el contrario, ``oaire:resourceType``  describe el tipo de resultado académico que representa el recurso, mientras que ``datacite:identifier`` se utiliza para representar la manifestación del recurso digital.
 
-**Remarks**
+**Observaciones**
 
-* introduced in `DRIVER Guidelines v2 element format`_
+* introducido en `DRIVER Guidelines v2 element format`_
 
-Property format (R, 0-n)
-------------------------
+Propiedad format (R, 0-n)
+-------------------------
 
-Use the media type of the resource as value.
+Utilice el tipo de medio del recurso como valor.
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
