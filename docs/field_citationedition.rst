@@ -1,28 +1,28 @@
 .. _aire:citationEdition:
 
-Citation Edition (R)
-====================
+Edición de la cita (R)
+======================
 
 ``oaire:citationEdition``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 0-1*
+*Ocurrencia: 0-1*
 
-Definition and Usage Instruction
+Definición e instrucciones de uso
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The edition the work was published in (e.g. book edition). This property is considered to be part of the bibliographic citation.
+Edición en la que se publicó el trabajo (por ejemplo, edición de un libro). Esta propiedad se considera parte de la cita bibliográfica.
 
-Property citationEdition (R, 0-1)
----------------------------------
+Propiedad citationEdition (R, 0-1)
+----------------------------------
 
-Use the edition number as value.
+Utilice el número de edición como valor.
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
