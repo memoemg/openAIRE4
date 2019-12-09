@@ -1,28 +1,28 @@
 .. _aire:citationConferencePlace:
 
-Citation Conference Place (R)
-=============================
+Lugar de la conferencia de la cita (R)
+======================================
 
 ``oaire:citationConferencePlace``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 0-1*
+*Ocurrencia: 0-1*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The place where the conference took place. This property is considered to be part of the bibliographic citation.
+Lugar donde tuvo lugar la conferencia. Esta propiedad se considera parte de la cita bibliográfica.
 
-Property citationConferencePlace (R, 0-1)
------------------------------------------
+Propiedad citationConferencePlace (R, 0-1)
+------------------------------------------
 
-Use the name of the place as value.
+Use el nombre del lugar como valor.
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
