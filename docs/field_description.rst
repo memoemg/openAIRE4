@@ -1,48 +1,48 @@
 .. _dc:description:
 
-Description (MA)
+Descripción (MA)
 ================
 
 ``dc:description``
 
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Mandatory if applicable*
+*Es obligatorio cuando corresponda*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+**Definición según la Iniciativa de Metadatos de Dublin Core (DCMI, por sus siglas en inglés)**
 
-An account of the content of the resource. Description may include but is not limited to: an abstract, table of contents, reference to a graphical representation of content or a free-text account of the content.
+Reseña del contenido del recurso. La descripción puede incluir entre otros elementos, un resumen, una tabla de contenido, una referencia a una representación gráfica del contenido o una reseña del contenido en texto libre.
 
-**Usage Instruction**
+**Instrucciones de uso**
 
-This element is used for a textual description of the content. When a resource consists of several separate physical object files, do not use ``dc:description`` to list the URLs of these files.
+Este elemento se utiliza para consignar una descripción textual del contenido. Cuando un recurso consta de varios archivos de objetos físicos por separado, no utilice ``dc:description`` para enumerar los URL de estos archivos.
 
-**Remarks**
+**Observaciones**
 
-* introduced in `DRIVER Guidelines v2 element description`_
+* introducido en `DRIVER Guidelines v2 element description`_
 
-Property description (MA, 0-n)
-------------------------------
+Propiedad description (MA, 0-n)
+-------------------------------
 
-Use the textual description as value.
+Use la descripción textual como valor.
 
 .. _dc:description_lang:
 
-Attribute lang (O)
-------------------
+Atributo lang (O)
+-----------------
 
-The language of the description (occurrence: 0-1).
+Lenguaje de la descripción (ocurrencia: 0-1).
 
-Use the ``xml:lang`` attribute to indicate the language of the description.
+Use el atributo ``xml:lang`` para indicar el idioma de la descripción.
 
-Example
+Ejemplo
 ~~~~~~~
 .. code-block:: xml
    :linenos:
