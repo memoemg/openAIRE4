@@ -41,7 +41,7 @@ Campo OpenAIRE                           Elemento de metadatos         Refinamie
 :ref:`dc:language`                       dc:language                   `IETF BCP 47`_, `ISO 639-3`_
 :ref:`dc:publisher`                      dc:publisher
 :ref:`dci:datePublication`               datacite:date                 :ref:`tipo de fecha <vocab:datetype_datetype>`
-:ref:`aire:resourceType`                 oaire:resourceType            Vocabulario COAR Tipo de Recurso `COAR Resource Type Vocabulary`_
+:ref:`aire:resourceType`                 oaire:resourceType            `Vocabulario COAR Tipo de Recurso`_ <`COAR Resource Type Vocabulary`_>
 :ref:`dc:description`                    dc:description
 :ref:`dc:format`                         dc:format
 :ref:`dci:identifier`                    datacite:identifier           :ref:`tipo de identificador <vocab:identifiertype_identifiertype>`
