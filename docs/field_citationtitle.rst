@@ -1,28 +1,28 @@
 .. _aire:citationTitle:
 
-Citation Title (R)
-==================
+Título de la cita (R)
+=====================
 
 ``oaire:citationTitle``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 0-1*
+*Ocurrencia: 0-1*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The title name of the container (e.g. journal, book, conference) this work is published in. This property is considered to be part of the bibliographic citation.
+Nombre del título de la forma en la que se publica este trabajo (por ejemplo, revista, libro, conferencia). Esta propiedad se considera parte de la cita bibliográfica.
 
-Property citationTitle (R, 0-1)
--------------------------------
+Propiedad citationTitle (R, 0-1)
+--------------------------------
 
-Use the title name as value.
+Utilice el nombre del título como valor.
 
-Example
+Ejemplo
 ~~~~~~~
 .. code-block:: xml
    :linenos:
