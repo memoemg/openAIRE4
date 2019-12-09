@@ -59,7 +59,7 @@ Nombre de la vía de financiamiento (opcional) (ocurrencia: 0-1).
 Subpropiedad awardNumber (MA)
 -----------------------------
 
-Project grantId or awardNumber (occurrence: 1).
+Indica el número de identificación de la subvención del proyecto o el número de adjudicación (ocurrencia: 1).
 
 Atributo awardURI (R)
 *********************
