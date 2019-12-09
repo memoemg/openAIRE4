@@ -1,60 +1,60 @@
 .. _dci:identifier:
 
-Resource Identifier (M)
-=======================
+Identificador de recurso (M)
+============================
 
 ``datacite:identifier``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Mandatory*
+*Obligatorio*
 
-*Occurrence: 1*
+*Ocurrencia: 1*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Identifier is a unique string that identifies a resource.
+El identificador es una cadena única que identifica un recurso.
 
-**Usage Instruction**
+**Instrucciones de uso**
 
-Recommended best practice is to identify the resource by means of a string or number conforming to a formal identification system. Example formal identification systems include the Uniform Resource Identifier (URI), the Uniform Resource Locator (URL), the Digital Object Identifier (DOI), and the ``URN:NBN``. Also this can be a direct URL, or a redirection URL, like PURL, HANDLE or other international resolution mechanisms.
+Para tener una mejor práctica se recomienda identificar al recurso por medio de una cadena o un número que se ajuste a un sistema de identificación formal. Algunos ejemplos de sistemas de identificación formal incluyen el Identificador Uniforme de Recursos (URI, por sus siglas en inglés), el Localizador Uniforme de Recursos (URL, por sus siglas en inglés), el Identificador de Objeto Digital (DOI, por sus siglas en inglés) y el ``URN:NBN``. También puede ser un URL directo o un URL de redirección, como PURL, HANDLE u otros mecanismos de resolución internacional.
 
-The ideal use of this element is to use a direct link or a link to a jump-off page (persistent URL) from ``identifier`` in the metadata record to the digital resource or a jump-off page.
+El uso ideal de este elemento es como enlace directo o enlace a una página de salto (una URL persistente) desde ``identifier`` en el registro de metadatos hacia el recurso digital o una página de salto.
 
-Smart practice:
+Práctica inteligente:
 
-* use a stable URL
+* úsese una URL estable.
 
-**Do Not Confuse With**
+**No confundir con**
 
-* :ref:`dci:alternativeIdentifier` (Use ``datacite:alternativeIdentifier`` to list other identifiers than the primary identifier applied to the same resource.)
-* :ref:`dci:relatedIdentifier` (Use ``datacite:relatedIdentifier`` to refer to related resources.)
-* :ref:`aire:file` (Use ``oaire:file`` to point to the resource being described by this metadata, e.g. the fulltext file.)
-* :ref:`dc:source` (Use ``dc:source`` for bibliographic citation of the originating resource.)
+* :ref:`dci:alternativeIdentifier` (Use ``datacite:alternativeIdentifier`` para enumerar otros identificadores distintos al identificador primario aplicado al mismo recurso).
+* :ref:`dci:relatedIdentifier` (Use ``datacite:relatedIdentifier`` para referirse a recursos relacionados).
+* :ref:`aire:file` (Use ``oaire:file`` para señalar el recurso descrito por estos metadatos, por ejemplo, el archivo de texto completo).
+* :ref:`dc:source` (Use ``dc:source`` para las citas bibliográficas del recurso original).
 
-Property identifier (M, 1)
---------------------------
+Propiedad identifier (M, 1)
+---------------------------
 
-Use the identifier link as value.
+Utilice el enlace del identificador como valor.
 
-Attribute identifierType (M)
-----------------------------
+Atributo identifierType (M)
+---------------------------
 
-The type of the Identifier (occurrences: 1).
+Tipo de identificador (ocurrencias: 1).
 
-**Allowed values, examples, other constraints**
+**Valores permitidos, ejemplos y otras restricciones**
 
 .. include:: vocabularies/identifiertype.rst
 
 .. note::
-   Unlike DataCite, OpenAIRE allows for DOIs and other types of identifiers.
+   A diferencia de DataCite, OpenAIRE permite DOI y otros tipos de identificadores.
 
-Example
+Ejemplo
 ~~~~~~~
 
-In this example the handle redirects to the jump-off page. A jump-off page is a good way to refer to. The end-user has the opportunity to see more information about the object(s) he has found, see the context and enjoy the other services a local repository has to offer:
+En este ejemplo, el identificador handle redirige a la página de salto. Una página de salto es un buen lugar al que se puede referir. El usuario final tiene la oportunidad de ver más información sobre el(los) objeto(s) que ha encontrado, ver el contexto y acceder a  los otros servicios que el repositorio local ofrece:
 
 .. code-block:: xml
    :linenos:
