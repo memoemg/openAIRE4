@@ -1,46 +1,46 @@
 .. _dc:source:
 
-Source (R)
+Fuente (R)
 ==========
 
 ``dc:source``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 0-n*
+*Ocurrencia: 0-n*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**DCMI Definition**
+**Definición según la Iniciativa de Metadatos de Dublin Core (DCMI, por sus siglas en inglés)**
 
-A reference to a resource from which the present resource is derived.
+Referencia a un recurso del que se deriva el presente recurso.
 
-**Usage Instruction**
+**Instrucciones de uso**
 
-The present resource may be derived from the *Source* resource in whole or in part. Recommended best practice is to reference the resource by means of a string or number conforming to a formal identification system.
+El recurso actual puede derivarse del recurso Source en su totalidad o en parte. Para tener una mejor práctica se recomienda referenciar el recurso por medio de una cadena o un número que se ajuste a un sistema de identificación formal.
 
-Best practice: Use only when the described resource is the result of digitization of non-digital originals. Otherwise, use *:ref:`dci:relatedIdentifier`*. Optionally metadata about the current location and call number of the digitized publication can be added.
+Práctica recomendada: utilícese solo cuando el recurso descrito sea el resultado de la digitalización de originales no digitales. De lo contrario, use *:ref:`dci:relatedIdentifier`*. De forma opcional, se pueden agregar metadatos relacionados con la ubicación actual y el número de clasificación de la publicación digitalizada.
 
-Use: Guidelines for Encoding Bibliographic Citation Information in Dublin Core Metadata (http://dublincore.org/documents/dc-citation-guidelines/).
+Use las directrices para la Codificación de Información Bibliográfica de Citas en los metadatos de Dublín Core (http://dublincore.org/documents/dc-citation-guidelines/).
 
-**Do Not Confuse With**
+**No confundir con**
 
 * :ref:`dci:identifier`
 
-**Remarks**
+**Observaciones**
 
-* introduced in `DRIVER Guidelines v2 element source`_
+* introducido en `DRIVER Guidelines v2 element source`_
 
-Property source (R, 0-n)
-------------------------
+Propiedad source (R, 0-n)
+-------------------------
 
-Use source information as value.
+Use la información de la fuente como valor.
 
-Example
+Ejemplo
 ~~~~~~~
 .. code-block:: xml
    :linenos:
