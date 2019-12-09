@@ -1,59 +1,57 @@
 .. _aire:version:
 
-Resource Version (R)
-====================
+Versión del recurso (R)
+=======================
 
 ``oaire:version``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 1*
+*Ocurrencia: 1*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Depending on the resource type this property is used to indicate
+Según el tipo de recurso, esta propiedad se utiliza para indicar:
 
-* the version number of a dataset or software
-* the status in the publication process of journal articles.
+* el número de versión de un conjunto de datos o software
+* el estado del proceso de publicación de los artículos de una revista.
 
-**Usage**
+**Uso**
 
-For *software* and *dataset* resources any string will be accepted, but a semantically-versioned tag is recommended.
-See <https://semver.org> for more information on semantic versioning.
+Para recursos de software y conjuntos de datos, se aceptará cualquier cadena; sin embargo, se recomienda una etiqueta con una versión semántica. Consulte <https://semver.org> para obtener más información sobre las versiones semánticas.
 
-For *preprints* and *articles* in the journal publishing process a controlled term must be used from the  "Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group" (`JAV`_). In this case the property *must* include the attribute 'uri'.
-The value of the property is the corresponding label of the HTTP URI.
+Para los artículos preliminares y los artículos finales que forman del proceso de publicación de una revista se debe usar un término controlado de las “Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group” (JAV). En castellano, "Versiones de Artículos de Revistas (JAV): Recomendaciones del Grupo de Trabajo Técnico NISO/ALPSP JAV" (`JAV`_). En este caso, la propiedad *debe* incluir el atributo 'uri'. El valor de la propiedad es la etiqueta correspondiente del URI HTTP.
 
-Property version (R, 1)
+Propiedad version (R, 1)
 ------------------------
 
-Use either a version number or the label of the vocabulary term as value.
+Utilice un número de versión o la etiqueta del término de vocabulario como valor.
 
-Attribute uri (MA)
-------------------
+Atributo uri (MA)
+-----------------
 
-Allowed HTTP URI are from the `COAR Version Types Vocabulary`_.
+Los identificadores URI HTTP que se permiten están tomados del Vocabulario de tipos de versión COAR (`COAR Version Types Vocabulary`_).
 
 **Version (controlled):**
 
 =============================================== ========== =================================
-conceptURI                                      label      comment
+URI del concepto                                Eiqueta    Comentario
 =============================================== ========== =================================
-http://purl.org/coar/version/c_b1a7d7d4d402bcce ``AO``     Author's Original
-http://purl.org/coar/version/c_71e4c1898caa6e32 ``SMUR``   Submitted Manuscript Under Review
-http://purl.org/coar/version/c_ab4af688f83e57aa ``AM``     Accepted Manuscript
-http://purl.org/coar/version/c_fa2ee174bc00049f ``P``      Proof
-http://purl.org/coar/version/c_970fb48d4fbd8a85 ``VoR``    Version of Record
-http://purl.org/coar/version/c_e19f295774971610 ``CVoR``   Corrected Version of Record
-http://purl.org/coar/version/c_dc82b40f9837b551 ``EVoR``   Enhanced Version of Record
-http://purl.org/coar/version/c_be7fb7dd8ff6fe43 ``NA``     Not Applicable (or Unknown)
+http://purl.org/coar/version/c_b1a7d7d4d402bcce ``AO``     versión original del autor
+http://purl.org/coar/version/c_71e4c1898caa6e32 ``SMUR``   versión sometida a revisión
+http://purl.org/coar/version/c_ab4af688f83e57aa ``AM``     versión final del autor
+http://purl.org/coar/version/c_fa2ee174bc00049f ``P``      prueba de galera
+http://purl.org/coar/version/c_970fb48d4fbd8a85 ``VoR``    versión publicada
+http://purl.org/coar/version/c_e19f295774971610 ``CVoR``   versión corregida
+http://purl.org/coar/version/c_dc82b40f9837b551 ``EVoR``   versión mejorada
+http://purl.org/coar/version/c_be7fb7dd8ff6fe43 ``NA``     versión desconocida
 =============================================== ========== =================================
 
-Example
+Ejemplo
 ~~~~~~~
 .. code-block:: xml
    :linenos:
