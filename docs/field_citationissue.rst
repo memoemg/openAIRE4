@@ -1,28 +1,28 @@
 .. _aire:citationIssue:
 
-Citation Issue (R)
-==================
+Número de la cita (R)
+=====================
 
 ``oaire:citationIssue``
 
-Cardinality
-~~~~~~~~~~~
+Cardinalidad
+~~~~~~~~~~~~
 
 *Recommended*
 
 *Occurrence: 0-1*
 
-Definition and Usage Instruction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Definición e instrucciones de uso
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The issue of the container (e.g. journal). This property is considered to be part of the bibliographic citation.
+Número que contiene al recurso (por ejemplo, el número de la revista en que fue publicado un artículo). Esta propiedad se considera parte de la cita bibliográfica.
 
-Property citationIssue (R, 0-1)
--------------------------------
+Propiedad citationIssue (R, 0-1)
+--------------------------------
 
-Use the issue number as value.
+Utilice el número como valor.
 
-Example
+Ejemplo
 ~~~~~~~
 
 .. code-block:: xml
