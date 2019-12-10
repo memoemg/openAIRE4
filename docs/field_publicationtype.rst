@@ -53,7 +53,7 @@ Se refiere al tipo general de un recurso.
 Atributo uri (M)
 ----------------
 
-Use términos del `Vocabulario de tipo de recurso de COAR (COAR Resource Type Vocabulary)`_ (ocurrencia: 1).
+Use términos del `Vocabulario de tipo de recurso de COAR (COAR Resource Type Vocabulary) <http://vocabularies.coar-repositories.org/documentation/resource_types/>`_ (ocurrencia: 1).
 
 .. include:: vocabularies/resourcetype.rst
 
