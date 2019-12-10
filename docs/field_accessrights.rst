@@ -39,7 +39,7 @@ http://purl.org/coar/access_right/c_14cb ``registro bibliográfico``
 
 **Observaciones**
 
-* las versiones anteriores de las Directrices de OpenAIRE utilizaban el `vocabulario info:eu-repo-Access-Terms. <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-AccessRights>`_.
+* las versiones anteriores de las Directrices de OpenAIRE utilizaban el `vocabulario info:eu-repo-Access-Terms <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-AccessRights>`_.
 
 
 Propiedad accessRights (M, 1)
