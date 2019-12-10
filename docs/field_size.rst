@@ -19,7 +19,7 @@ Información no estructurada sobre el tamaño del recurso.
 
 **Valores permitidos, ejemplos y otras restricciones**
 
-Texto libreo.
+Texto libre.
 
 Ejemplos: "15 páginas", "6 MB"
 
