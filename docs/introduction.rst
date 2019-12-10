@@ -101,13 +101,13 @@ Agradecimientos y colaboradores de la versión en español
 
 **Expertos y revisores**
 
-*Alberto Cabezas (LA Referencia, Chile)
+*Alberto Cabezas (LA Referencia)
 
 *Andrea Mora (Universidad Nacional, Costa Rica)
 
 *César Olivares (Concytec, Perú)
 
-*Lautaro Matas (LA Referencia, España)
+*Lautaro Matas (LA Referencia)
 
 *Paola Azrilevich (MinCyT, Argentina)
 
