@@ -33,7 +33,7 @@ Si un recurso específico (una instancia de producción científica) tiene más 
 
 * :ref:`aire:resourceType`
 * :ref:`dci:identifier`
-* :ref:`datacite:size`
+* :ref:`dci:size`
 
 El elemento Dublin Core (DC) ``format`` describe el tipo de medio de este recurso. Por el contrario, ``oaire:resourceType``  describe el tipo de resultado académico que representa el recurso, mientras que ``datacite:identifier`` se utiliza para representar la manifestación del recurso digital.
 
