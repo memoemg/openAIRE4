@@ -29,14 +29,14 @@ Utilice el identificador relacionado como valor. Repita esta propiedad para cada
 Atributo relatedIdentifierType (M)
 ----------------------------------
 
-Tipo de identificador relacionado (ocurrencia: 1). Es obligatorio si se usa *relatedIdentifier*.
+Tipo de identificador relacionado (ocurrencia: 1). Es obligatorio si se usa ``relatedIdentifier``.
 
 .. include:: vocabularies/relatedidentifiertype.rst
 
 Atributo relationType (M)
 -------------------------
 
-Descripción de la relación entre el recurso que se va a registrar (A) y el recurso relacionado (B) (ocurrencia: 1). Es obligatorio si se usa *relatedIdentifier*.
+Descripción de la relación entre el recurso que se va a registrar (A) y el recurso relacionado (B) (ocurrencia: 1). Es obligatorio si se usa ``relatedIdentifier``.
 
 .. include:: vocabularies/relationtype.rst
 
@@ -53,7 +53,7 @@ Nombre del esquema (ocurrencias: 0-1).
 Atributo schemeURI (O)
 ----------------------
 
-URI del esquema de metadatos relacionado señalado en *relatedMetadataScheme* (ocurrencias: 0-1).
+URI del esquema de metadatos relacionado señalado en ``relatedMetadataScheme`` (ocurrencias: 0-1).
 
 **Valores permitidos, ejemplos y otras restricciones**
 
@@ -63,7 +63,7 @@ URI del esquema de metadatos relacionado señalado en *relatedMetadataScheme* (o
 Atributo schemeType (O)
 -----------------------
 
-Se refiere al tipo de esquema de metadatos relacionado señalado en *relatedMetadataScheme*, vinculado con *schemeURI* (ocurrencias: 0-1).
+Se refiere al tipo de esquema de metadatos relacionado señalado en ``relatedMetadataScheme``, vinculado con ``schemeURI`` (ocurrencias: 0-1).
 
 **Valores permitidos, ejemplos y otras restricciones**
 
