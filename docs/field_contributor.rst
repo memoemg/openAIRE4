@@ -36,7 +36,7 @@ Propiedad contributor (MA, 0-n)
 Atributo contributorType (M)
 ----------------------------
 
-Tipo de colaborador del recurso (ocurrencia: 1). Es obligatorio si se utiliza colaborador [*contributor*].
+Tipo de colaborador del recurso (ocurrencia: 1). Es obligatorio si se utiliza ``contributor``.
 
 .. include:: vocabularies/contributortype.rst
 
@@ -45,7 +45,7 @@ Tipo de colaborador del recurso (ocurrencia: 1). Es obligatorio si se utiliza co
 Subpropiedad contributorName (M)
 --------------------------------
 
-Nombre del colaborador (occurrence: 1). Es obligatorio si se utiliza colaborador [*contributor*].
+Nombre del colaborador (occurrence: 1). Es obligatorio si se utiliza ``contributor``.
 
 .. _dci:contributor_nameType:
 
@@ -83,7 +83,7 @@ Identifica de forma única a una persona física o jurídica, según varios esqu
 Atributo nameIdentifierScheme (M)
 *********************************
 
-Nombre del esquema de identificación de nombres (ocurrencia: 1). Es obligatorio si se usa *nameIdentifier*
+Nombre del esquema de identificación de nombres (ocurrencia: 1). Es obligatorio si se usa ``nameIdentifier``.
 
 .. _dci:contributor_schemeURI:
 
