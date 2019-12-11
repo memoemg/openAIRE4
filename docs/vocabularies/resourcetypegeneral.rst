@@ -1,5 +1,5 @@
 
-*Valores de la lista controlada:*
+*Valores de la lista controlada*
 
 * ``Audiovisual`` - Medios audiovisuales
 * ``Collection`` - Colección
