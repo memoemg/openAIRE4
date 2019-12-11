@@ -35,7 +35,7 @@ Repita esta propiedad para indicar los diferentes financiadores y proyectos.
 Subpropiedad funderName (M)
 ---------------------------
 
-Nombre del proveedor del financiamiento (ocurrencia: 1). Es obligatorio si se usa *fundingReference*.
+Nombre del proveedor del financiamiento (ocurrencia: 1). Es obligatorio si se usa ``fundingReference``.
 
 Subpropiedad funderIdentifier (R)
 ---------------------------------
