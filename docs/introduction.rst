@@ -37,10 +37,10 @@ Principales novedades
 En comparación con las versiones anteriores de las directrices, esta versión presenta 
 los siguientes cambios principales:
 
-* Un perfil de aplicación y un esquema basados en Dublin Core y DataCite, incluido un nuevo prefijo de Metadatos OAI (Open Archive Initiative).
+* Un perfil de aplicación y un esquema basados en Dublin Core y DataCite, incluido un nuevo prefijo de metadatos OAI (Open Archive Initiative).
 * Soporte para esquemas de identificación de autores, organizaciones, financiadores y recursos académicos.
 * Incorporación de los vocabularios controlados de la Confederación de Repositorios de Acceso Abierto (COAR).
-* Cumplimiento de la `Política de Adquisición de Contenido de OpenAIRE (OpenAIRE Content Acquisition Policy  <https://doi.org/10.5281/zenodo.1446407>`_, publicada el 5 de octubre de 2018.
+* Cumplimiento de la `Política de Adquisición de Contenido de OpenAIRE (OpenAIRE Content Acquisition Policy)  <https://doi.org/10.5281/zenodo.1446407>`_, publicada el 5 de octubre de 2018.
 
 ¿Cómo está estructurado este documento?
 ---------------------------------------
@@ -52,10 +52,10 @@ y DataCite a los campos de OpenAIRE. Cada campo de OpenAIRE se describe en
 detalle con los siguientes elementos:
 
 * el nombre del campo;
-* como se mapea un elemento en tales esquemas de metadatos;
+* cómo se mapea un elemento en tales esquemas de metadatos;
 * la cardinalidad del campo;
 * definición e instrucciones de uso sobre los valores permitidos en sus propiedades, subpropiedades y atributos;
-* ejemplo(s)
+* ejemplo(s).
 
 Agradecimientos y colaboradores de la versión original en inglés
 ----------------------------------------------------------------
@@ -101,21 +101,21 @@ Agradecimientos y colaboradores de la versión en español
 
 **Expertos y revisores**
 
-*Alberto Cabezas (LA Referencia)
+* Alberto Cabezas (LA Referencia)
 
-*Andrea Mora (Universidad Nacional, Costa Rica)
+* Andrea Mora (Universidad Nacional, Costa Rica)
 
-*César Olivares (Concytec, Perú)
+* César Olivares (Concytec, Perú)
 
-*Lautaro Matas (LA Referencia)
+* Lautaro Matas (LA Referencia)
 
-*Paola Azrilevich (MinCyT, Argentina)
+* Paola Azrilevich (MinCyT, Argentina)
 
-*Rosalina Vásquez (REMERI, México)
+* Rosalina Vásquez (REMERI, México)
 
 *Traductora*
 
-*Elieth Salazar, Estados Unidos
+* Elieth Salazar, Estados Unidos
 
 
 Versiones
