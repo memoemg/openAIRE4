@@ -1,6 +1,6 @@
 
 *Valores de la lista controlada*
 
-* Accepted
-* Available
-* Issued
+* ``Accepted``
+* ``Available``
+* ``Issued``
