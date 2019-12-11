@@ -1,5 +1,5 @@
 
-*Controlled list values*
+*Valores de la lista controlada*
 
 * ``IsCitedBy`` (indica que B incluye a A en una cita)
 * ``Cites`` (indica que A incluye a B en una cita)
