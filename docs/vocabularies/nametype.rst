@@ -1,6 +1,6 @@
 
 *Valores de la lista controlada*
 
-* Organizational - Organizacional
-* Personal - Personal
+* ``Organizational`` – Organizacional
+* ``Personal`` – Personal
 
