@@ -1,5 +1,5 @@
 
-*Controlled list values*
+*Valores de la lista controlada*
 
 * Accepted
 * Available
