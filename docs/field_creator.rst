@@ -43,7 +43,7 @@ nombres en alfabetos latinos pueden transliterarse siguiendo las normas de la `A
 Atributo nameType (R)
 *********************
 
-Tipo de nombre (occurrence: 0-1).
+Tipo de nombre (ocurrencia: 0-1).
 
 .. include:: vocabularies/nametype.rst
 
@@ -77,7 +77,7 @@ Identifica de forma única a una persona física o jurídica, según varios esqu
 Atributo nameIdentifierScheme (M)
 *********************************
 
-Nombre del esquema de identificación de nombres (ocurrencia: 1). Es obligatorio si se usa la identificación de nombres [*nameIdentifier*].
+Nombre del esquema de identificación de nombres (ocurrencia: 1). Es obligatorio si se usa ``nameIdentifier``.
 
 .. _dci:creator_nameIdentifier_schemeURI:
 

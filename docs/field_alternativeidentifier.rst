@@ -15,7 +15,7 @@ Cardinalidad
 Definición e instrucciones de uso
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cualquier otro identificador distinto al identificador primario aplicado al recurso que se va a registrar.  Puede ser cualquier cadena alfanumérica que sea única dentro de su dominio de emisión. Puede utilizarse para identificadores locales. AlternateIdentifier debe utilizarse para indicar otro identificador de la misma instancia (misma ubicación, mismo archivo).
+Cualquier otro identificador distinto al identificador primario aplicado al recurso que se va a registrar.  Puede ser cualquier cadena alfanumérica que sea única dentro de su dominio de emisión. Puede utilizarse para identificadores locales. ``alternateIdentifier`` debe utilizarse para indicar otro identificador de la misma instancia (misma ubicación, mismo archivo).
 
 **Observaciones**
 
@@ -29,7 +29,7 @@ Valor del identificador alternativo.
 Attribute alternateIdentifierType (M)
 -------------------------------------
 
-Tipo del identificador alternativo (ocurrencia: 1). Es obligatorio si se usa AlternateIdentifier.
+Tipo del identificador alternativo (ocurrencia: 1). Es obligatorio si se usa ``alternateIdentifier``.
 
 Se *recomienda* tomar el valor de la siguiente lista:
 

@@ -25,7 +25,7 @@ Se refiere a un recurso específico (una instancia de la producción científica
 
 Recomendación: tomar valores de una de las siguientes listas: 
 
-* IETF BCP 47, el `Registro de subetiquetas de idioma de la IANA (*IANA Language Subtag Registry*) <http://www.iana.org/assignments/language-subtag-registry>`_
+* IETF BCP 47, el `Registro de subetiquetas de idioma de la IANA (IANA Language Subtag Registry) <http://www.iana.org/assignments/language-subtag-registry>`_
 * ISO 639-x,  donde x puede ser 1, 2 o 3. Mejor práctica: usamos la norma ISO 639-3 y al hacerlo seguimos lo expuesto en: http://www.sil.org/iso639-3/
 
 De ser necesario, repita este elemento para indicar varios idiomas.
@@ -39,7 +39,7 @@ Si las normas ISO 639-2 y 639-1 son suficientes para los contenidos de un reposi
 Propiedad language (MA, 0-n)
 ----------------------------
 
-Utilice el código idioma como valor.
+Utilice el código del idioma como valor.
 
 Ejemplo
 ~~~~~~~

@@ -18,7 +18,7 @@ Definición e instrucciones de uso
 
 Fechas relevantes para describir un período de embargo.
 
-Representa la fecha en que se hace público el recurso disponible. Puede ser un rango. Para indicar la fecha de fin de un embargo, use el tipo de fecha "Available" en este elemento.   La mejor práctica recomendada para codificar el valor de la fecha se define en un perfil de la norma ISO 8601 [W3CDTF] y sigue el formato ``AAA-MM-DD``.
+Representa la fecha en que se hace público el recurso disponible. Puede ser un rango. Para indicar la fecha de fin de un embargo, use el tipo de fecha ``Available`` en este elemento. La mejor práctica recomendada para codificar el valor de la fecha se define en un perfil de la norma ISO 8601 [W3CDTF] y sigue el formato ``AAA-MM-DD``.
 
 **Observaciones**
 
