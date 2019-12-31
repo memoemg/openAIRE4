@@ -17,7 +17,7 @@ Definición e instrucciones de uso
 
 **Definición según la Iniciativa de Metadatos de Dublin Core (DCMI, por sus siglas en inglés)**
 
-Manifestación física o digital del recurso. Normalmente, *Format* incluye el tipo de medio. *Format* puede usarse para determinar el software, el hardware u otro equipo necesario para mostrar u operar el recurso. Para tener una mejor práctica se recomienda seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de Tipos de Medios de Internet [*MIME*, por sus siglas en inglés] que definen los formatos de medios de computadora)..
+Manifestación física o digital del recurso. Normalmente, ``format`` incluye el tipo de medio. ``format`` puede usarse para determinar el software, el hardware u otro equipo necesario para mostrar u operar el recurso. Para tener una mejor práctica se recomienda seleccionar un valor de un vocabulario controlado (por ejemplo, la lista de Tipos de Medios de Internet [*MIME*, por sus siglas en inglés] que definen los formatos de medios de computadora).
 
 **Instrucciones de uso**
 
