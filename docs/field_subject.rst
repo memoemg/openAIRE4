@@ -20,13 +20,13 @@ Materia, palabra clave, código de clasificación o frase clave que describe el 
 
 **Instrucciones de uso**
 
-En la propiedad *subject* puede haber dos tipos de valores: ya sea una palabra clave o una clasificación.
+En la propiedad ``subject`` puede haber dos tipos de valores: ya sea una palabra clave o una clasificación.
 
 En general, elija las palabras más significativas y únicas para las palabras clave y evite las que sean demasiado generales para describir un recurso en particular.
 
 Para las palabras clave o frases clave que no estén controladas por un vocabulario o tesauro, separe con un punto y coma cada palabra clave o frase clave, o repita el elemento para cada término. No hay requisitos con respecto al uso de mayúsculas en las palabras clave, aunque se recomienda la consistencia interna (dentro de un mismo archivo).
 
-En los casos en los que los términos se tomen de un esquema de clasificación estándar, codifique cada término mediante el uso de los atributos adicionales de la propiedad *subject*. Codifique todo el descriptor *subject* de acuerdo con el esquema relevante. Use las mayúsculas y la puntuación tal como están en el esquema original.
+En los casos en los que los términos se tomen de un esquema de clasificación estándar, codifique cada término mediante el uso de los atributos adicionales de la propiedad ``subject``. Codifique todo el descriptor ``subject`` de acuerdo con el esquema relevante. Use las mayúsculas y la puntuación tal como están en el esquema original.
 
 Se recomienda utilizar un URI cuando se usen esquemas de clasificación o vocabularios controlados, especialmente cuando se usen esquemas codificados como la Clasificación Decimal Dewey (DDC, por sus siglas en inglés) o la Clasificación Decimal Universal (UDC, por sus siglas en inglés). Los proveedores de servicios pueden reconocer esquemas de codificación más fácilmente cuando el esquema utiliza URIs en un espacio de nombres para la autoridad.
 
