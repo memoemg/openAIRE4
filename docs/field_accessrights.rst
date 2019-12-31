@@ -47,8 +47,8 @@ Propiedad accessRights (M, 1)
 
 Use la etiqueta del término del vocabulario como valor.
 
-Atributo uri (M)
-----------------
+Atributo rightsURI (M)
+----------------------
 
 Use el URI del concepto del término del vocabulario.
 
