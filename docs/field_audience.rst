@@ -21,7 +21,7 @@ Clase de entidad a la que se destina o para la que es útil el recurso.
 
 **Instrucciones de uso**
 
-La clase de entidad puede determinarla el creador, la editorial o un tercero. Un ejemplo de audiencias se deriva del `Vocabulario de estándares comunes de datos de educación (*Common Education Data Standards vocabulary*)`_. Tenga en cuenta que esta noes una lista exhaustiva.
+La clase de entidad puede determinarla el creador, la editorial o un tercero. Un ejemplo de audiencias se deriva del `Vocabulario de estándares comunes de datos de educación`_. Tenga en cuenta que esta no es una lista exhaustiva.
 
 * Administradores
 * Grupos de la comunidad
