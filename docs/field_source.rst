@@ -21,7 +21,7 @@ Referencia a un recurso del que se deriva el presente recurso.
 
 **Instrucciones de uso**
 
-El recurso actual puede derivarse del recurso Source en su totalidad o en parte. Para tener una mejor práctica se recomienda referenciar el recurso por medio de una cadena o un número que se ajuste a un sistema de identificación formal.
+El recurso actual puede derivarse del recurso ``source`` en su totalidad o en parte. Para tener una mejor práctica se recomienda referenciar el recurso por medio de una cadena o un número que se ajuste a un sistema de identificación formal.
 
 Práctica recomendada: utilícese solo cuando el recurso descrito sea el resultado de la digitalización de originales no digitales. De lo contrario, use *:ref:`dci:relatedIdentifier`*. De forma opcional, se pueden agregar metadatos relacionados con la ubicación actual y el número de clasificación de la publicación digitalizada.
 
