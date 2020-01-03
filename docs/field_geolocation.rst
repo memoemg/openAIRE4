@@ -38,14 +38,14 @@ pointLongitude (M)
 
 Dimensión longitudinal del punto (ocurrencia: 1).
 
-Es obligatorio si se usa *geoLocationPoint*.
+Es obligatorio si se usa ``geoLocationPoint``.
 
 pointLatitude (M)
 +++++++++++++++++
 
 Dimensión latitudinal del punto (ocurrencia: 1).
 
-Es obligatorio si se usa *geoLocationPoint*.
+Es obligatorio si se usa ``geoLocationPoint``.
 
 .. _d:geolocationbox:
 
@@ -63,22 +63,22 @@ Véanse las :ref:`d:geolocation_instructions`.
 westBoundLongitude (M)
 ++++++++++++++++++++++
 
-Dimensión longitudinal occidental del cuadro. Es obligatorio si se usa *geoLocationBox*.
+Dimensión longitudinal occidental del cuadro. Es obligatorio si se usa ``geoLocationBox``.
 
 eastBoundLongitude (M)
 ++++++++++++++++++++++
 
-Dimensión longitudinal oriental del cuadro. Es obligatorio si se usa *geoLocationBox*.
+Dimensión longitudinal oriental del cuadro. Es obligatorio si se usa ``geoLocationBox``.
 
 southBoundLatitude (M)
 ++++++++++++++++++++++
 
-Dimensión latitudinal sur del cuadro. Es obligatorio si se usa *geoLocationBox*.
+Dimensión latitudinal sur del cuadro. Es obligatorio si se usa ``geoLocationBox``.
 
 northBoundLatitude (M)
 ++++++++++++++++++++++
 
-Dimensión latitudinal norte del cuadro. Es obligatorio si se usa *geoLocationBox*.
+Dimensión latitudinal norte del cuadro. Es obligatorio si se usa ``geoLocationBox``.
 
 .. _d:geolocationplace:
 
@@ -99,18 +99,18 @@ Subpropiedad geoLocationPolygon (O)
 polygonPoint (M)
 ++++++++++++++++
 
-Punto de ubicación en un polígono (ocurrencias: 4-n). Es obligatorio si se usa *geoLocationPolygon*.
+Punto de ubicación en un polígono (ocurrencias: 4-n). Es obligatorio si se usa ``geoLocationPolygon``.
 
 pointLongitude (M)
 ^^^^^^^^^^^^^^^^^^
 
-Dimensión longitudinal del punto (ocurrencia: 1). Es obligatorio si se usa *polygonPoint*.
+Dimensión longitudinal del punto (ocurrencia: 1). Es obligatorio si se usa ``polygonPoint``.
 
 
 pointLatitude (M)
 ^^^^^^^^^^^^^^^^^
 
-Dimensión latitudinal del punto (ocurrencia: 1). Es obligatorio si se usa *polygonPoint*.
+Dimensión latitudinal del punto (ocurrencia: 1). Es obligatorio si se usa ``polygonPoint``.
 
 inPolygonPoint (O)
 ++++++++++++++++++
@@ -120,12 +120,12 @@ Para cualquier área delimitada que sea mayor que la mitad de la Tierra, defina 
 pointLongitude (M)
 ^^^^^^^^^^^^^^^^^^
 
-Dimensión longitudinal del punto (ocurrencia: 1). Es obligatorio si se usa *inPolygonPoint*.
+Dimensión longitudinal del punto (ocurrencia: 1). Es obligatorio si se usa ``inPolygonPoint``.
 
 pointLatitude (M)
 ^^^^^^^^^^^^^^^^^
 
-Dimensión latitudinal del punto (ocurrencia: 1). Es obligatorio si se usa *inPolygonPoint*.
+Dimensión latitudinal del punto (ocurrencia: 1). Es obligatorio si se usa ``inPolygonPoint``.
 
 .. _d:geolocation_instructions:
 
@@ -152,8 +152,8 @@ Ejemplo
        <datacite:geoLocationBox>
        		<datacite:westBoundLongitude>-71.032</datacite:westBoundLongitude>
         	<datacite:eastBoundLongitude>-68.211</datacite:eastBoundLongitude>
-       		<datacite:southBoundLongitude>41.090</datacite:southBoundLongitude>
-       		<datacite:northBoundLongitude>42.893</datacite:northBoundLongitude>
+       		<datacite:southBoundLatitude>41.090</datacite:southBoundLatitude>
+       		<datacite:northBoundLatitude>42.893</datacite:northBoundLatitude>
        </datacite:geoLocationBox>
      </datacite:geoLocation>
    </datacite:geoLocations>

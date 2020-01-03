@@ -8,9 +8,9 @@ Número de la cita (R)
 Cardinalidad
 ~~~~~~~~~~~~
 
-*Recommended*
+*Recomendado*
 
-*Occurrence: 0-1*
+*Ocurrencia: 0-1*
 
 Definición e instrucciones de uso
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

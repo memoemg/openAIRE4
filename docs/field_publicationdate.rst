@@ -31,7 +31,7 @@ donde:
 
 * ``AAAA`` [año de cuatro dígitos] es ''obligatorio''
 * ``MM`` [mes de dos dígitos (01=enero, etc.)] es ''opcional''
-* ``DD`` [día de dos dígitos (del 01 al 31)] es ''ociional''
+* ``DD`` [día de dos dígitos (del 01 al 31)] es ''opcional''
 
 **Sólo una fecha - Fecha de publicación:**
 
@@ -64,7 +64,7 @@ Utilice la fecha de publicación como valor.
 Atributo dateType (M)
 ---------------------
 
-Tipo de fecha. Elija del uso de vocabulario del  :ref:`tipo de fecha <vocab:datetype_datetype>` el término controlado ``Issued`` para indicar la fecha de publicación.
+Tipo de fecha. Elija el término controlado ``Issued`` del vocabulario :ref:`tipo de fecha <vocab:datetype_datetype>` para indicar la fecha de publicación.
 
 Ejemplo
 ~~~~~~~

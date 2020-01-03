@@ -24,7 +24,7 @@ Según el tipo de recurso, esta propiedad se utiliza para indicar:
 
 Para recursos de software y conjuntos de datos, se aceptará cualquier cadena; sin embargo, se recomienda una etiqueta con una versión semántica. Consulte <https://semver.org> para obtener más información sobre las versiones semánticas.
 
-Para los artículos preliminares y los artículos finales que forman del proceso de publicación de una revista se debe usar un término controlado de las “Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group” (JAV). En castellano, "Versiones de Artículos de Revistas (JAV): Recomendaciones del Grupo de Trabajo Técnico NISO/ALPSP JAV" (`JAV`_). En este caso, la propiedad *debe* incluir el atributo 'uri'. El valor de la propiedad es la etiqueta correspondiente del URI HTTP.
+Para los artículos preliminares y los artículos finales que forman del proceso de publicación de una revista se debe usar un término controlado de las “Journal Article Versions (JAV): Recommendations of the NISO/ALPSP JAV Technical Working Group” (JAV). En castellano, "Versiones de Artículos de Revistas (JAV): Recomendaciones del Grupo de Trabajo Técnico NISO/ALPSP JAV" (`JAV`_). En este caso, la propiedad *debe* incluir el atributo ``uri``. El valor de la propiedad es la etiqueta correspondiente del URI HTTP.
 
 Propiedad version (R, 1)
 ------------------------

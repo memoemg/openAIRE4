@@ -19,9 +19,9 @@ Tipo de producción científica de la que es manifestación el recurso. Describe
 
 **Uso**
 
-El atributo *resourceTypeGeneral* se usa para categorizar el recurso como perteneciente a una clase principal de resultados de investigación.
-El atributo *uri* contiene el URI HTTP del concepto de un tipo de recurso e indica la subpropiedad de *resourceTypeGeneral*.
-La etiqueta de este concepto se utiliza como valor para el elemento *ResourceType*.
+El atributo ``resourceTypeGeneral`` se usa para categorizar el recurso como perteneciente a una clase principal de resultados de investigación.
+El atributo ``uri`` contiene el URI HTTP del concepto de un tipo de recurso e indica la subpropiedad de ``resourceTypeGeneral``.
+La etiqueta de este concepto se utiliza como valor para el elemento ``resourceType``.
 
 **No confundir con**
 
@@ -30,8 +30,8 @@ La etiqueta de este concepto se utiliza como valor para el elemento *ResourceTyp
 **Observaciones**
 
 * las versiones anteriores de las Directrices OpenAIRE utilizaban el `vocabulario info:eu-repo para tipos de publicaciones <https://wiki.surfnet.nl/display/standards/info-eu-repo/#info-eu-repo-Publicationtypes>`_.
-* se adopta el elemento resourceType de DataCite MetadataKernel v4.1.
-* se agrega a este perfil de aplicación el atributo uri para el URI del concepto de tipo de recurso.
+* se adopta el elemento ``resourceType`` de DataCite MetadataKernel v4.1.
+* se agrega a este perfil de aplicación el atributo ``uri`` para el URI del concepto de tipo de recurso.
 
 Propiedad resourceType (M, 1)
 -----------------------------

@@ -21,7 +21,7 @@ Información sobre los derechos de licencia mantenidos sobre el recurso.
 
 **Instrucciones de uso**
 
-Normalmente, un elemento *licenseCondition* tiene una declaración de la administración de derechos para el uso del objeto o una referencia a un servicio que proporcione dicha información. La información sobre los derechos a menudo abarca los Derechos de Propiedad Intelectual (DPI), los Derechos de Autor y varios Derechos de Propiedad. Es preferible referirse a un servicio de derechos donde al usuario final se le expliquen los derechos de reutilización mediante el uso de un URL. Por ejemplo, la organización Creative Commons ha creado identificadores URI para sus diferentes licencias en distintas jurisdicciones. Esto se puede aplicar para crear licencias de uso legibles por máquina.
+Normalmente, un elemento ``licenseCondition`` tiene una declaración de la administración de derechos para el uso del objeto o una referencia a un servicio que proporcione dicha información. La información sobre los derechos a menudo abarca los Derechos de Propiedad Intelectual (DPI), los Derechos de Autor y varios Derechos de Propiedad. Es preferible referirse a un servicio de derechos donde al usuario final se le expliquen los derechos de reutilización mediante el uso de un URL. Por ejemplo, la organización Creative Commons ha creado identificadores URI para sus diferentes licencias en distintas jurisdicciones. Esto se puede aplicar para crear licencias de uso legibles por máquina.
 
 Propiedad licenseCondition (R, 1)
 ---------------------------------
