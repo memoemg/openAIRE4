@@ -58,7 +58,7 @@ Tipo de nombre (ocurrencia: 0-1).
 
 .. _dci:contributor_familyName:
 
-Subproiedad familyName (O)
+Subpropiedad familyName (O)
 --------------------------
 
 Apellido del colaborador (ocurrencia: 0-1).
