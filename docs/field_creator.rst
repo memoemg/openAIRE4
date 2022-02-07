@@ -35,7 +35,7 @@ Propiedad creator (M, 1-n)
 Subpropiedad creatorName (M)
 ----------------------------
 
-Nombre del autor (ocurrencia: 1). Consigunar con el formato: Apellido, Nombre. Los
+Nombre del autor (ocurrencia: 1). Consignar con el formato: Apellido, Nombre. Los
 nombres en alfabetos latinos pueden transliterarse siguiendo las normas de la `ALA-LC <http://www.loc.gov/catdir/cpso/roman.html>`_.
 
 .. _dci:creator_nameType:
