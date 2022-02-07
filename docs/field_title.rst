@@ -12,7 +12,7 @@ Cardinalidad
 
 *Obligatorio*
 
-*Occurrencia: 1-n*
+*Ocurrencia: 1-n*
 
 Definición e instrucciones de uso
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
